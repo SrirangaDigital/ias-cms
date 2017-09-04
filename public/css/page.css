@@ -1,0 +1,109 @@
+.col-padded {
+    padding: 60px 30px 30px 30px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+.col-padded-no-top {
+	padding: 30px 30px 30px 30px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.col-shaded {
+	background-color: rgba( 0, 0, 0, 0.02 );
+}
+.title-widget {
+	color: #898989;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1;
+	text-transform: uppercase;
+	margin: 0 0 40px 0;
+	border-left: 5px solid #ea5644;
+	padding-left: 25px;
+	position: relative;
+	line-height: 18px;
+}
+.mainpage{
+    font-size: 16px;
+    line-height: 32px;
+    color: #555;
+    /*font-weight: 400;*/
+}
+.mainpage blockquote{
+    font-size: 16px;
+    line-height: 32px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-style: italic;
+    border-color: #ea5644;
+}
+.mainpage blockquote .head{
+    color: #ea5644;
+}
+.mainpage h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    color: rgb(79, 79, 79);
+}
+.mainpage .intro{
+    width: 75%;
+    margin: 0 auto 20px auto;
+}
+.mainpage .cover-image-carousel-nogap{
+    padding: 20px 50px;
+    line-height: 0;
+    text-align: center;
+}
+.mainpage .cover-image-carousel-nogap a{
+    display: inline-block;
+    color: #555;
+}
+.mainpage .cover-image-carousel-nogap img{
+    height: 150px;
+    width: 96px;
+    margin: 0 auto;
+}
+.mainpage a{
+  color: #ea5644;
+}
+.mainpage #information .info-icon{
+    padding: 10px 50px 20px 50px;
+    display: inline-block;
+    color: #666;
+    line-height: 40px;
+    font-size: 16px;
+}
+.mainpage #information .info-icon i{
+    font-size: 80px;
+    color: #DDD;
+    -webkit-transition: 0.2 s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -o-transition: 0.2s ease-in-out all;
+    transition: 0.2s ease-in-out all;
+}
+.mainpage #information .info-icon i:hover{
+    color: #ea5644;
+    -webkit-transition: 0.2s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -o-transition: 0.2s ease-in-out all;
+    transition: 0.2s ease-in-out all;
+}
+.copy-text {
+    font-size: 12px;
+    line-height: 24px;
+    margin: -4px 0 0 0;
+    color: rgb(119, 119, 119);
+    font-weight: 300;
+}
+.copy-text a{
+    color: #ea5644;
+}
+#k-subfooter{
+    margin-top: 30px;
+}

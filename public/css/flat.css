@@ -1,0 +1,120 @@
+.flat-page{
+  font-size: 16px;
+  line-height: 32px;
+  color: #555;
+}
+.flat-page h1{
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	color: rgb(79, 79, 79);
+}
+.flat-page h2{
+	font-size: 16px;
+	line-height: 32px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.05 );
+	color: #ea5644;
+	font-weight: 400;
+	margin-top: 0;
+}
+.flat-page h3{
+  color: #636363;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 30px 0 10px 0;
+}
+.flat-page h4{
+	color: #636363;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 32px;
+  margin: 20px 0 0px 0;
+}
+.flat-page p, .flat-page ul, .flat-page ol{
+	font-size: 16px;
+	line-height: 32px;
+  margin-bottom: 20px;
+}
+.flat-page dl{
+	margin-top: 15px;
+}
+
+.flat-page dl dt {
+	float: left;
+	clear: left;
+	white-space: nowrap;
+	text-overflow: elipsis;
+	overflow: hidden;
+	font-weight: 400;
+	text-align: inherit;
+	width: 180px;
+	color: #333;
+	padding: 10px 10px 10px 0px;
+	vertical-align: top;
+  line-height: 24px;
+}
+.flat-page dl dd {
+	color: #777;
+	padding: 10px 10px 10px 0px;
+  padding-left: 180px;
+	vertical-align: top;
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.05 );
+  line-height: 24px;
+}
+.flat-page strong{
+	font-weight: 600;
+}
+.flat-page a{
+  color: #ea5644;
+}
+.flat-page .subnav{
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #555;
+  padding: 0 20px;
+}
+.flat-page .subnav ul{
+  color: #555;
+}
+.flat-page .subnav ul li{
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+.flat-page .subnav ul li a{
+  color: #555;
+  /*border-bottom: 2px dotted #ea5644;*/
+}
+.flat-page .subnav ul li a:hover, .flat-page .subnav ul li a.active{
+  border-bottom: 2px solid #ea5644;
+}
+.flat-page .banner{
+	margin: 30px auto;
+}
+.flat-page .cover-image-carousel{
+	margin-top: 50px;
+}
+.flat-page .cover-image-carousel a{
+	display: inline-block;
+	width: 180px;
+	margin: 0 10px;
+	text-align: center;
+	color: #555;
+}
+.flat-page .cover-image-carousel img{
+	height: 150px;
+	margin: 0 auto;
+}
+.flat-page .cover-image-carousel p{
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: 12px;
+}
