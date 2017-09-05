@@ -43,7 +43,7 @@
 	border: none;
 	box-shadow: none;
 	text-align: right;
-	width: 200px;
+	width: 150px;
 	border-bottom: 1px solid #ededed;
 	padding: 10px;
 	line-height: 32px;
@@ -53,7 +53,7 @@
 	border: none;
 	box-shadow: none;
 	text-align: left;
-	width: 600px;
+	width: 650px;
 	border-bottom: 1px solid #ededed;
 	padding: 10px;
 	margin-left: 20px;
@@ -96,4 +96,25 @@
 }
 .updateDataArchives{
 	text-align: center;
+}
+.uploadImage{
+	float: right;
+	height: 180px;
+	width: 180px;
+	border: 1px solid #DDD;
+	color: #999;
+	text-align: center;
+}
+.uploadImage .fileinput-preview p{
+	padding: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 0px;
+}
+.uploadImage .fileinput-preview img{
+	max-height: 150px;
+	max-width: 150px;
+}
+.form-group input[name="speaker-name"]{
+	width: 500px !important;
 }
