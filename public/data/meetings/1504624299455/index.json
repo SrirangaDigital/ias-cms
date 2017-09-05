@@ -1,0 +1,13 @@
+{
+    "speaker": {
+        "id": "1504624299455",
+        "name": "Pradyut Ghosh",
+        "affiliation": "IACS, Kolkata",
+        "biodata": "Pradyut Ghosh obtained his PhD in chemistry from Indian Institute of Technology, Kanpur, in 1998. He spent 2 years as a postdoctoral fellow at Texas AM University and 1 year as an Alexander von Humboldt <b>Fellow</b> at University of Bonn, Germany. Upon his return to India in 2000, he joined Central Salt Marine Chemicals Research Institute, Bhavnagar. In April 2007, he moved to Indian Association for the Cultivation of Science, Kolkata, as an <b>Associate Professor</b> and he is now a Senior Professor in the Department of Inorganic Chemistry. His research interests are recognition and chemical sensing of anions, interlocked molecules and self-assembly. He has been awarded the Indian Science Congress Association Young Scientist Award (1998), Alexander von Humboldt Fellowship (2000), CSIR Young Scientist Award in Chemical Sciences (2004), Swarnajayanti Fellowship Award in Chemical Sciences (2009), B. M. Birla Science Prize in Chemical Science (2009) and CRSI Bronze Medal (2012). More recently, he has been awarded the prestigious Shanti Swarup Bhatnagar Prize in Chemical Sciences (2015) and Fellow of the Indian Academy of Sciences (2016)."
+    },
+    "talk": {
+        "id": "1504624299455",
+        "title": "Synthetic small molecules as machines: A chemistry perspective",
+        "abstract": "Synthetic threaded molecules have drawn a lot of attention in the supramolecular chemistry community for their possible applications in molecular machines and nanotechnology. Since 1983, a wide variety of mechanically interlocked molecules with increasing complexities have been developed by different groups. In 2016, the Nobel Prize in Chemistry was awarded to Sauvage, Stoddart and Feringa for their contributions to the construction of molecular machines using such synthetic molecules. How they succeeded in linking molecules together to design molecular machines from a tiny lift to microscopic motors and muscles will first be discussed. Then the speaker’s group’s work on the development of threaded systems, such as pseudorotaxanes and rotaxanes having multiple functionalities, will also be discussed briefly."
+    }
+}

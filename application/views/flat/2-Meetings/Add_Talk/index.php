@@ -5,32 +5,6 @@
         <li><a href="<?=BASE_URL?>meeting/listing/">See list</a></li>
     </ul>
 </div>
-<!-- <script>
-$(document).ready(function() {
-
-    $(".fileinput").on("change.bs.fileinput", function(e) {
-
-        var formData = new FormData();
-        formData.append('file', $('#profile-picture')[0].files[0]);
-        
-        console.log(formData);
-
-        $.ajax({
-            url: "<?=BASE_URL?>meeting/addPicture",
-            type: "POST",
-            data: formData,
-            enctype: 'multipart/form-data',
-            success: function (msg) {
-                console.log(msg)
-            },
-            contentType: false,
-            processData: false
-        });
-
-        e.preventDefault();
-    });
-});
-</script> -->
 <div class="col-md-9 clear-paddings">
     <!-- Breadcrumb will be inserted here -->
     <?=$this->printBreadcrumb($path)?>

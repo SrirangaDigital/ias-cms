@@ -30,7 +30,7 @@ class meeting extends Controller {
 		if (!file_put_contents($jsonFile, $json)) $this->view('error/prompt', array('msg' => 'Error in creating file'));
 		if (!$this->addPicture($jsonArray['speaker']['id'])) $this->view('error/prompt', array('msg' => 'Talk added but profile picture not uploaded'));
 
-		$this->listing();
+		$this->redirect('meeting/listing');
 	}
 
 	public function addPicture($id) {

@@ -39,16 +39,47 @@ $(document).ready(function() {
             }
         });
     });
+
+    $(".fileinput").on("change.bs.fileinput", function(e) {
+        var formData = new FormData();
+        formData.append('profilePicture', $('#profilePicture')[0].files[0]);
+        
+        console.log(formData);
+        $.ajax({
+            url: "<?=BASE_URL?>meeting/addPicture/<?=$data['speaker']['id']?>",
+            type: "POST",
+            data: formData,
+            enctype: 'multipart/form-data',
+            success: function (msg) {
+
+                console.log(msg)
+            },
+            contentType: false,
+            processData: false
+        });
+        e.preventDefault();
+    });
 });
 </script>
 <div class="col-md-9 clear-paddings">
     <!-- Breadcrumb will be inserted here -->
     <?=$this->printBreadcrumb($path)?>
     <div data-editable data-name="main-content">
+
+        <div class="fileinput fileinput-new uploadImage" data-provides="fileinput">
+            <div class="fileinput-preview" data-trigger="fileinput">
+                <img src="<?=DATA_URL . 'meetings/' . $data['speaker']['id']?>/profile.jpg">
+            </div>
+            <div>
+                <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" id="profilePicture" name="profilePicture"></span>
+                <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+            </div>
+        </div>
         <h1 class="speaker-name" data-id="<?=$data['speaker']['id']?>"><?=$data['speaker']['name']?></h1>
         <h2 class="speaker-affiliation"><?=$data['speaker']['affiliation']?></h2>
         <h4>Speaker Biodata</h4>
         <p class="speaker-biodata"><?=$data['speaker']['biodata']?></p>
+
         <h3 class="talk-title" data-id="<?=$data['talk']['id']?>"><?=$data['talk']['title']?></h3>
         <h4>Abstract of the Talk</h4>
         <p class="talk-abstract"><?=$data['talk']['abstract']?></p>

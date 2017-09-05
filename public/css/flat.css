@@ -205,3 +205,16 @@
   left: auto;
   top: auto;
 }
+.showImage{
+  float: right;
+  height: 180px;
+  width: 180px;
+  border: 1px solid #DDD;
+  color: #999;
+  text-align: center;
+  margin-left: 50px;
+}
+.showImage img{
+  max-height: 180px;
+  max-width: 180px;
+}
