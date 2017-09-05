@@ -12,7 +12,10 @@
     <h1>List of talks</h1>
     <h2>Annual meetings of the Indian Academy of Sciences - 2017</h2>
     <ul class="list-unstyled">
-<?php foreach ($data as $row) { ?>
+<?php
+if(!$data) echo '<li>Talks are yet to be added</li>';
+foreach ($data as $row) {
+?>
     	<li class="journal-article-list">
             <p class="journal-article-list-title"><?=$row['talk']['title']?></p>
             <p class="journal-article-list-authors">

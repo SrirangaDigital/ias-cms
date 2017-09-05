@@ -44,7 +44,8 @@ class meeting extends Controller {
 	public function listing() {
 
 		$talks = $this->model->getTalks();
-		($talks) ? $this->view('meeting/listing', $talks) : $this->view('error/index');
+		
+		$this->view('meeting/listing', $talks);
 	}
 
 	public function editTalk($id = '') {
