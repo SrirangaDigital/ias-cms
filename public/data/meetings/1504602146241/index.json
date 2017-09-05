@@ -1,0 +1,13 @@
+{
+    "talk": {
+        "id": 1504602146241,
+        "title": "DNA replication in pathogens: Unique properties and possible intervention",
+        "abstract": "Dhar’s laboratory works on DNA replication and cell cycle control of two medically important human pathogens: Helicobacter pylori, which causes gastric ulcer and gastric adenocarcinoma, and Plasmodium falciparum, which causes human malaria. The main objective is to find key regulators in DNA replication processes that could be potential targets for therapy.&#13;&#10;&#13;&#10;The unique properties of Helicobacter pylori DNA replication and cell division include but are not limited to the absence of a helicase loader DnaC, polar replisome formation and assembly of cell division proteins at the pole unlike E. coli where both the processes take place in the mid-cell region. These findings have helped to understand the assembly and dynamics of the Hp-replication machinery, leading to the identification of potential targets for therapy.&#13;&#10;&#13;&#10;In eukaryotes, nuclear division is always followed by cytokinesis. However, in P. falciparum, during blood stage, the nucleus keeps on dividing until the schizont stage followed by cytokinesis yields new merozoites. A protein, PfORC1, that may link DNA replication with cell division has been identified. A possible CDK-like kinase involved in this process has also been identified. Further, putative replication initiation sites have been mapped and methods for specific intervention of parasite replication processes have been established."
+    },
+    "speaker": {
+        "id": 1504602146241,
+        "name": "Debabrata Dash",
+        "affiliation": "BHU, Varanasi",
+        "biodata": "Suman K Dhar is a Professor at the Special Centre for Molecular Medicine, JNU, New Delhi. His research areas are focused on understanding the mechanism of DNA replication and cell cycle regulation in two medically important human pathogens, namely Helicobacter pylori and Plasmodium falciparum, that cause gastric ulcer, gastric adenocarcinoma and human malaria, respectively. He has found two key molecules, a helicase in H. pylori and a bacterial-type gyrase in P. falciparum, that are excellent drug targets. He is Fellow of all three National Academies in India (IASc in 2016) and a recipient of the Shanti Swarup Bhatnagar Award in Biological Sciences."
+    }
+}

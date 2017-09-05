@@ -20,7 +20,7 @@ class Model {
 		}
 		else {
 
-			return array_filter(filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+			return array_filter(filter_input_array(INPUT_POST, FILTER_SANITIZE_SPECIAL_CHARS));
 		}
 	}
 

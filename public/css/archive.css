@@ -160,8 +160,10 @@
 	font-weight: 400;
 }
 .journal-article-list{
-	margin-bottom: 30px;
-	padding-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	border-bottom: 1px solid rgba( 0, 0, 0, 0.1 );
 }
 .journal-article-list-abstract{
@@ -187,7 +189,7 @@
 	font-weight: 400;
 	line-height: 28px;
 	margin-top: 0;
-	margin-bottom: 15px;
+	margin-bottom: 5px !important;
 	padding-left: 20px;
 	color: rgb(49, 49, 49);
 	border-left: 5px solid #ea5644;
@@ -223,6 +225,7 @@
 	line-height: 26px;
 	color: #777;
 	font-weight: 400;
+	margin-bottom: 0 !important;
 }
 .journal-article-list-authors a{
 	color: #777;
