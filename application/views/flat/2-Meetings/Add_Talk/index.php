@@ -12,7 +12,7 @@
     <h1>Add a talk</h1>
     <h2>Annual meetings of the Indian Academy of Sciences - 2017</h2>
 
-    <form method="POST" class="form-inline updateDataArchive" role="form" id="updateData" action="<?=BASE_URL?>meeting/addTalk" onsubmit="return validate()">
+    <form method="POST" class="form-inline updateDataArchive" role="form" id="updateData" action="<?=BASE_URL?>meeting/addTalk">
         <p>Speaker</p>
         <div class="form-group">
             <label class="edit key">Name</label>

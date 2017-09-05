@@ -1,0 +1,13 @@
+{
+    "talk": {
+        "id": 1504616927218,
+        "title": "Noise and nonequilibrium in nano-machine operation: A physics perspective",
+        "abstract": "Molecular machines are naturally occurring molecular devices that transform one form of energy into another. If the output is mechanical, the machine is usually referred to as a motor. The cytoskeletal motors transport wide varieties of cargo. A different class of machines carry out template-directed polymerization where the respective templates also serve, effectively, as tracks for the step-by-step motor-like translocation of these machines. Reverse-engineering these natural nano-machines and chemical synthesis of artificial molecular machines are opening up the industrial revolution of the 21st century. This multidisciplinary enterprise has benefitted from the concepts and techniques of several disciplines including physics, chemistry, biology, engineering and nano-biotechnology. The most challenging questions on the stochastic kinetics of the molecular machines from the perspective of statistical thermodynamics will be highlighted. With examples mainly from his research contributions, how noise, nonequilibrium and network play crucial roles in the operational mechanisms of these machines, will be demonstrated."
+    },
+    "speaker": {
+        "id": 1504616927218,
+        "name": "Debashish Chowdhury",
+        "affiliation": "IIT, Kanpur",
+        "biodata": "Debashish Chowdhury received PhD from IIT Kanpur in 1984. After postdoctoral research in Germany and USA, he served as a faculty member for 5 years in JNU, New Delhi, before joining IIT Kanpur in 1992. He became Professor in 1997. He was the Dr Jag Mohan Garg Chair Professor at IIT Kanpur (2011–2014). At present, he is the S. Sampath Chair Professor and Head of the Department of Physics. He is a Fellow of all the three Indian National Science Academies (IASc in 2004). He is a recipient of the Alexander von Humboldt Fellowship, INSA Young Scientist Medal and J C Bose National Fellowship. His area of research is statistical and biological physics."
+    }
+}

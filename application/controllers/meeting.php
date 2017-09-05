@@ -29,7 +29,7 @@ class meeting extends Controller {
 		if (!mkdir($jsonPath, 0775, true)) $this->view('error/prompt', array('msg' => 'Error in creating talk folder'));
 		if (!file_put_contents($jsonFile, $json)) $this->view('error/prompt', array('msg' => 'Error in creating file'));
 
-		$this->view('page/prompt', array('msg' => 'Talk successfully added'));
+		$this->listing();
 	}
 
 	public function listing() {
@@ -45,6 +45,17 @@ class meeting extends Controller {
 		$talk = json_decode($talkJsonString, true);
 		
 		($talk) ? $this->view('meeting/editTalk', $talk) : $this->view('error/index');
+	}
+
+	public function saveTalk() {
+
+		$postData = $this->model->getPostData();
+		$data = $postData['data'];
+		$id = $data['speaker']['id'];
+		$jsonFile = PHY_DATA_URL . 'meetings/' . $id . '/index.json';
+		$json = html_entity_decode(json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
+
+		if(file_put_contents($jsonFile, $json)) echo 'True';
 	}
 }
 
