@@ -21,7 +21,8 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?=PUBLIC_URL?>js/viewer.js"></script>
+    <script type="text/javascript" src="<?=PUBLIC_URL?>js/viewer.js"></script>
+	<script type="text/javascript" src="<?=PUBLIC_URL?>js/content-tools.min.js"></script>
 
     <script type="text/javascript">var base_url = "<?= BASE_URL?>";</script>
     <script type="text/javascript" src="<?=PUBLIC_URL?>js/common.js"></script>
@@ -38,14 +39,15 @@
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/navbar.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/carousel.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/page.css?v=1.0">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/archive.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/general.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/flat.css">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/archive.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/form.css">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/general.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/aux.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/social.css">
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/viewer.css">
 
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/content-tools.min.css">
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="<?=PUBLIC_URL?>images/favicon.png">
