@@ -35,7 +35,13 @@ $(document).ready(function() {
           
             if(data === 'True') {
 
-                return new ContentTools.FlashUI('ok')
+                $('.modal-body-spinner').show();
+                var gitdone = $.get( base_url+'gitcvs/updateRepo');
+                gitdone.done(function(gitdata){
+    
+                    $('.modal-body-spinner').hide();
+                    return new ContentTools.FlashUI('ok');
+                });
             }
         });
     });

@@ -60,7 +60,7 @@
     <link rel="icon" type="image/png" href="<?=PUBLIC_URL?>images/favicon.png">
 </head>
 <body>
-
+    <div class="modal-body-spinner"><div><i class="fa fa fa-spinner fa-spin"></i></div></div>
     <!-- Google Analytics
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Navigation
