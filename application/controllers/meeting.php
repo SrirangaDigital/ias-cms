@@ -13,7 +13,7 @@ class meeting extends Controller {
 
 		if(!$data) $this->redirect('Meetings/Add_Talk/');
 		
-		$jsonArray['speaker']['id'] = $jsonArray['talk']['id']= round(microtime(true) * 1000);
+		 $jsonArray['talk']['id'] = $jsonArray['speaker']['id'] = round(microtime(true) * 1000);
 
 		foreach ($data as $key => $value) {
 
@@ -30,7 +30,7 @@ class meeting extends Controller {
 		if (!file_put_contents($jsonFile, $json)) $this->view('error/prompt', array('msg' => 'Error in creating file'));
 		if (!$this->addPicture($jsonArray['speaker']['id'])) $this->view('error/prompt', array('msg' => 'Talk added but profile picture not uploaded'));
 
-		$this->redirect('meeting/listing');
+		$this->redirect('gitcvs/updateRepo');
 	}
 
 	public function addPicture($id) {
@@ -65,7 +65,10 @@ class meeting extends Controller {
 		$jsonFile = PHY_DATA_URL . 'meetings/' . $id . '/index.json';
 		$json = html_entity_decode(json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
 
-		if(file_put_contents($jsonFile, $json)) echo 'True';
+		if(file_put_contents($jsonFile, $json)) {
+
+			echo 'True';
+		}
 	}
 }
 
