@@ -14,4 +14,11 @@ define('PHY_STOCK_IMAGE_URL', PHY_PUBLIC_URL . 'images/stock/');
 define('PHY_PRECAST_URL', PHY_BASE_URL . 'precast/');
 define('PHY_DATA_URL', PHY_PUBLIC_URL . 'data/');
 
+// Git config
+define('GIT_USER_NAME', 'shruthisdst');
+define('GIT_PASSWORD', 'shruthitr14');
+define('GIT_REPO', 'github.com/SrirangaDigital/ias-cms.git');
+define('GIT_REMOTE', 'https://' . GIT_USER_NAME . ':' . GIT_PASSWORD . '@' . GIT_REPO);
+define('GIT_EMAIL', 'shruthitr.nayak@gmail.com');
+
 ?>
