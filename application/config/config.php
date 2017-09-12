@@ -14,6 +14,10 @@ define('PHY_STOCK_IMAGE_URL', PHY_PUBLIC_URL . 'images/stock/');
 define('PHY_PRECAST_URL', PHY_BASE_URL . 'precast/');
 define('PHY_DATA_URL', PHY_PUBLIC_URL . 'data/');
 
+// Login config
+define('LOGIN_USERNAME', 'admin@ias.ac.in');
+define('LOGIN_PASSWORD', 'iasSeeMyes');
+
 // Git config
 define('GIT_USER_NAME', 'shruthisdst');
 define('GIT_PASSWORD', 'shruthitr14');

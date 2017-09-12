@@ -8,7 +8,7 @@ class meeting extends Controller {
 	}
 
 	public function addTalk() {
-		
+
 		$data = $this->model->getPostData();
 
 		if(!$data) $this->redirect('Meetings/Add_Talk/');
@@ -43,18 +43,30 @@ class meeting extends Controller {
 
 	public function listing() {
 
-		$talks = $this->model->getTalks();
-		
-		$this->view('meeting/listing', $talks);
+		if(isset($_SESSION['login'])){
+
+			$talks = $this->model->getTalks();		
+			$this->view('meeting/listing', $talks);
+		}
+		else{
+
+			$this->redirect('user/login');
+		}
 	}
 
 	public function editTalk($id = '') {
 
-		$talkFile = PHY_DATA_URL . 'meetings/' . $id . '/index.json';
-		$talkJsonString = file_get_contents($talkFile);
-		$talk = json_decode($talkJsonString, true);
+		if(isset($_SESSION['login'])){
+			$talkFile = PHY_DATA_URL . 'meetings/' . $id . '/index.json';
+			$talkJsonString = file_get_contents($talkFile);
+			$talk = json_decode($talkJsonString, true);
 		
-		($talk) ? $this->view('meeting/editTalk', $talk) : $this->view('error/index');
+			($talk) ? $this->view('meeting/editTalk', $talk) : $this->view('error/index');
+		}
+		else{
+			
+			$this->redirect('user/login');	
+		}
 	}
 
 	public function saveTalk() {

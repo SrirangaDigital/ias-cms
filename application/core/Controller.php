@@ -45,6 +45,18 @@ class Controller {
 		@header('Location: ' . $path);
 	}
 
+	public function isLoggedIn() {
+
+		if(isset($_SESSION['login'])) {
+
+			return ($_SESSION['login'] == 1) ? True : False;
+		}
+		else {
+
+			return False;
+		}
+	}	
+
 }
 
 ?>

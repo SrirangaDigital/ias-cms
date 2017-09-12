@@ -12,6 +12,7 @@
     <h1>Add a talk</h1>
     <h2>Annual meetings of the Indian Academy of Sciences - 2017</h2>
 
+<?php if(isset($_SESSION['login'])) {?>
     <form method="POST" class="form-inline updateDataArchive" role="form" id="updateData" action="<?=BASE_URL?>meeting/addTalk" enctype="multipart/form-data">
         
         <div class="fileinput fileinput-new uploadImage" data-provides="fileinput">
@@ -46,4 +47,7 @@
         </div>
         <input class="updateSubmit" type="submit" id="submit" value="Add talk">
     </form>
+<?php } else{ ?>
+    <p><a href="<?=BASE_URL?>user/login">Please login to add new Talk</a></p>
+<?php  } ?>   
 </div>

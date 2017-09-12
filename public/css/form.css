@@ -5,6 +5,17 @@
 .form-group label{
 	font-weight: 400;
 }
+
+#login .form-group label{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	/*text-transform: uppercase;*/
+	border: none;
+	display: inline;
+	padding: 0 0;
+}
+
 .form-group textarea{
 	min-height: 50px;
 	background-color: transparent;
