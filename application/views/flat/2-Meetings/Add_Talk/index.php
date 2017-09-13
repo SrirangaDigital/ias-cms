@@ -26,24 +26,24 @@
         <p>Speaker</p>
         <div class="form-group">
             <label class="edit key">Name</label>
-            <input type="text" class="form-control edit value" name="speaker-name" id="speaker-name">
+            <input type="text" class="form-control edit value" name="speaker-name" id="speaker-name" required>
         </div>
         <div class="form-group">
             <label class="edit key">Affiliation</label>
-            <input type="text" class="form-control edit value" name="speaker-affiliation">
+            <input type="text" class="form-control edit value" name="speaker-affiliation" required>
         </div>
         <div class="form-group">
             <label class="edit key">Brief Biodata</label>
-            <textarea class="form-control edit value" name="speaker-biodata" placeholder="In about 500 words"></textarea>
+            <textarea class="form-control edit value" name="speaker-biodata" placeholder="In about 500 words" required></textarea>
         </div>
         <p>Talk</p>
         <div class="form-group">
             <label class="edit key">Title</label>
-            <input type="text" class="form-control edit value" name="talk-title">
+            <input type="text" class="form-control edit value" name="talk-title" required>
         </div>
         <div class="form-group">
             <label class="edit key">Abstract</label>
-            <textarea class="form-control edit value" name="talk-abstract" placeholder="In about 500 words"></textarea>
+            <textarea class="form-control edit value" name="talk-abstract" placeholder="In about 500 words" required></textarea>
         </div>
         <input class="updateSubmit" type="submit" id="submit" value="Add talk">
     </form>
