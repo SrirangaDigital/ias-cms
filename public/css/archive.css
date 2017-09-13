@@ -261,11 +261,11 @@
 	margin-right: 5px;
 	border-right: 1px solid rgba( 0, 0, 0, 0.05 );
 }
-.journal-article-list-meta span a{
+.journal-article-list-meta span a.edit{
 	color: #2196F3;
 }
-.journal-article-list-meta span a:hover{
-	border-bottom: 1px dotted #2196F3;
+.journal-article-list-meta span a.delete{
+	color: #ea5644;
 }
 .journal-article-volume {
 	color: #636363;

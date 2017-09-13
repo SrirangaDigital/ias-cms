@@ -43,6 +43,10 @@ $(document).ready(function() {
                     return new ContentTools.FlashUI('ok');
                 });
             }
+            else{
+
+                return new ContentTools.FlashUI('no');
+            }
         });
     });
 
