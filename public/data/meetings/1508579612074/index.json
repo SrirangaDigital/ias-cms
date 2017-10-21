@@ -1,0 +1,13 @@
+{
+    "speaker": {
+        "id": 1508579612074,
+        "name": "Piyush Srivastava",
+        "affiliation": "Tata Institute of Fundamental Research, Mumbai",
+        "biodata": "Piyush Srivastava is currently at the School of Technology and Computer Science at the Tata Institute of Fundamental Research, Mumbai. His research is largely on probabilistic structures in computation. His current interests include the study of sampling problems, often those related to probabilistic graphical models. A large part of his recent work has focused on understanding the connections between phase transitions in statistical physics, and algorithms and computational complexity. He was selected Young Associate of the Indian Academy of Sciences in 2017. "
+    },
+    "talk": {
+        "id": 1508579612074,
+        "title": "Structure recovery in graphical models",
+        "abstract": "This talk will offer a brief introduction to the problem of recovering block structures in graphical models from observed labellings. Such problems arise, e.g., in the general paradigm of community detection, where one knows that a system consists of components that can be divided into two different communities, but needs to find which community each component is in, by looking at some observed behaviours of the individual components. After a brief introduction to the classical statistical approaches for modelling this problem, we will look at a recent approach inspired from statistical mechanics that is based on a variant of the Ising model. We will then see how the phase transitions in this Ising model relate to the statistical problem of recovering block structures. "
+    }
+}

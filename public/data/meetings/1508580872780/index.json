@@ -1,0 +1,13 @@
+{
+    "speaker": {
+        "id": 1508580872780,
+        "name": "Kaustuv Sanyal",
+        "affiliation": "Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru",
+        "biodata": "Each eukaryotic chromosome carries a centromere, the unique DNA locus, which is essential for faithful transmission of the genetic information during mitosis and meiosis. Despite playing this conserved function, the centromere DNA sequence is rapidly changing across all forms of eukaryotic life. Centromeres in many budding yeast species are specified by the DNA sequence. In most other eukaryotes, centromeres are not strictly dependent on the underlying DNA sequence. Over the years, we studied the process of chromosome segregation in Candida and Cryptococcus species. These two groups of pathogens are known to cause most deaths by fungal infections in immune-compromised patients. Combining live cell confocal microscopy, mutational approach and computational simulation, the speaker’s group has developed a comprehensive model and identified mechanistic conservation and divergence in the process of chromosome segregation in these two fungal phyla. The centromeres of a number of closely related Candida and Cryptococcus species have also been identified and characterised. It was demonstrated that centromere sequences are rapidly evolving among closely related species in both these fungal phyla. The results of their studies reveal that centromere formation in Candida albicans is strictly epigenetically reg-ulated, while RNAi seems to play a role in the structural evolution of centromeres in the Cryptococcus species complex. "
+    },
+    "talk": {
+        "id": 1508580872780,
+        "title": "Molecular evolution of the process of chromosome segregation: Lessons from fungal pathogens",
+        "abstract": "Kaustuv Sanyal obtained PhD from Bose Institute and postdoctoral training at the University of California, Santa Barbara on yeast molecular genetics. He joined JNCASR, Bengaluru in late 2005 as assistant professor and promoted to the rank of professor in Molecular Biology and Genetics Unit. Since his graduate studies, the major focus of his research is to under-stand the mechanism of chromosome segregation using various yeasts, both pathogenic and non-pathogenic, as model systems. He has been awarded the prestigious Tata Innovation Fellowship and National Bioscience Award by the Department of Biotechnology (India). He is a Fellow of the Indian Academy of Sciences (2017), NASI, and a member of the Faculty of 1000 (F1000Prime), UK. Currently, he leads a large group of graduate students and postdoctoral researchers, and actively collaborates with many research groups across the world. "
+    }
+}

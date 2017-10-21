@@ -1,0 +1,13 @@
+{
+    "speaker": {
+        "id": 1508575237271,
+        "name": "Abhishek Banerjee",
+        "affiliation": "Indian Institute of Science, Bengaluru",
+        "biodata": "Abhishek Banerjee is currently an Assistant Professor at the Department of Mathematics at Indian Institute of Science, Bengaluru since January 2014. During 2013, he was a Matre de Conferences at Collge de France. During 2009–2012, he worked as a postdoc at Institut des Hautes ´etudes Scientifiques (IH ´&#13;&#10;ES), Bures-sur-Yvette, France, and a Zassenhaus Assistant Professor at Ohio State University. He received his PhD in 2009 from Johns Hopkins University in Baltimore, Maryland. His undergraduate degree was in Statistics, and he received his BStat (Hons.) in 2005 from Indian Statistical Institute, Kolkata. He was selected Young Associate of the Indian Academy of Sciences in 2015. &#13;&#10;"
+    },
+    "talk": {
+        "id": 1508575237271,
+        "title": "What is finiteness?",
+        "abstract": "What is finiteness? We know about finite sets, about finitely generated vector spaces, finitely generated algebras and compact sets. Each of these conveys a notion of finiteness in a certain framework. But is there a single algebraic notion of finiteness that describes them all? "
+    }
+}
