@@ -1,13 +1,13 @@
 {
     "speaker": {
-        "id": 1508579567303,
+        "id": "1508579567303",
         "name": "Subhro Bhattacharjee",
         "affiliation": "International Centre for Theoretical Sciences, Bengaluru",
-        "biodata": "Subhro Bhattacharjee is condensed matter theorist currently working at the International Centre for Theoretical Sciences, Bengaluru. His primary research interest is in the field of quantum many-body physics. Over the last few years he has been working on unconven-tional phases and phase transitions in quantum condensed matter, which require a descrip-tion beyond the paradigm of symmetry breaking. These include various frustrated quantum magnets and correlated metals. He completed BSc from Presidency College, Kolkata, MS and PhD from IISc, Bengaluru, and was a postdoctoral fellow at University of Toronto and Max Planck Institute (MPIPKS). He was selected Young Associate of Indian Academy of Sciences in 2016. "
+        "biodata": "Subhro Bhattacharjee is condensed matter theorist currently working at the International Centre for Theoretical Sciences, Bengaluru. His primary research interest is in the field of quantum many-body physics. Over the last few years he has been working on unconven-tional phases and phase transitions in quantum condensed matter, which require a descrip-tion beyond the paradigm of symmetry breaking. These include various frustrated quantum magnets and correlated metals. He completed BSc from Presidency College, Kolkata, MS and PhD from IISc, Bengaluru, and was a postdoctoral fellow at University of Toronto and Max Planck Institute (MPIPKS). He was selected Young Associate of Indian Academy of Sciences in 2016."
     },
     "talk": {
-        "id": 1508579567303,
+        "id": "1508579567303",
         "title": "Quantum matter: Life beyond symmetries",
-        "abstract": "The paradigm of symmetry breaking is central to our present understanding of different con-ventional phases of condensed matter such as magnets and superconductors. Modern con-densed matter physics has, however, revealed a class of quantum condensed matter whose description crucially requires an understanding of the subtle interplay of long-range quan-tum entanglement and symmetries. In this talk, citing specific examples of topologically ordered as well as symmetry protected topological phases, the speaker will discuss the currently developing generalised framework for describing such new classes of quantum ordered matter, some of which may form the basis of future technology. "
+        "abstract": "The paradigm of symmetry breaking is central to our present understanding of different con-ventional phases of condensed matter such as magnets and superconductors. Modern con-densed matter physics has, however, revealed a class of quantum condensed matter whose description crucially requires an understanding of the subtle interplay of long-range quan-tum entanglement and symmetries. In this talk, citing specific examples of topologically ordered as well as symmetry protected topological phases, the speaker will discuss the currently developing generalised framework for describing such new classes of quantum ordered matter, some of which may form the basis of future technology."
     }
 }
