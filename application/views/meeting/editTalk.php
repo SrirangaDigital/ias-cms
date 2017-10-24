@@ -26,6 +26,8 @@ $(document).ready(function() {
         editedContents.speaker.biodata = $.trim($('.speaker-biodata').html());
 
         editedContents.talk.id = $('.talk-title').attr('data-id');
+        editedContents.talk.session = $.trim($('.talk-session').html());
+        editedContents.talk.chairperson = $.trim($('.talk-chairperson').html());
         editedContents.talk.title = $.trim($('.talk-title').html());
         editedContents.talk.abstract = $.trim($('.talk-abstract').html());
 
@@ -90,6 +92,8 @@ $(document).ready(function() {
         <h4>Speaker Biodata</h4>
         <p class="speaker-biodata"><?=$data['speaker']['biodata']?></p>
 
+        <h2 class="talk-session"><?=$data['talk']['session']?></h2>
+        <h2 class="talk-chairperson"><?=$data['talk']['chairperson']?></h2>
         <h3 class="talk-title" data-id="<?=$data['talk']['id']?>"><?=$data['talk']['title']?></h3>
         <h4>Abstract of the Talk</h4>
         <p class="talk-abstract"><?=$data['talk']['abstract']?></p>

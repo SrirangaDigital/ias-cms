@@ -38,6 +38,14 @@
         </div>
         <p>Talk</p>
         <div class="form-group">
+            <label class="edit key">Session</label>
+            <input type="text" class="form-control edit value" name="talk-session" required>
+        </div>        
+        <div class="form-group">
+            <label class="edit key">Chairperson</label>
+            <input type="text" class="form-control edit value" name="talk-chairperson" required>
+        </div>        
+        <div class="form-group">
             <label class="edit key">Title</label>
             <input type="text" class="form-control edit value" name="talk-title" required>
         </div>
