@@ -1,13 +1,15 @@
 {
     "speaker": {
-        "id": 1508578565488,
-        "name": "R Bhatia ",
-        "affiliation": "Ashoka University, Sonepat, Haryana ",
-        "biodata": "Rajendra Bhatia spent most of his professional life at the Delhi Centre of the Indian Statistical Institute, and has recently joined Ashoka University. Much of his work is on analysis of matrices and operators and its connections with harmonic analysis, Riemannian geometry, approximation theory, numerical analysis, and physics. He is the author of five books. He is the founder editor of the series Texts and Readings in Mathematics, which has published 75 books, and the series Culture and History of Mathematics, which has published 10. In 2016, he was awarded the Hans Schneider Prize in Linear Algebra. He was elected Fellow of the Indian Academy of Sciences in 1993. "
+        "id": "1508578565488",
+        "name": "R Bhatia",
+        "affiliation": "Ashoka University, Sonepat, Haryana",
+        "biodata": "Rajendra Bhatia spent most of his professional life at the Delhi Centre of the Indian Statistical Institute, and has recently joined Ashoka University. Much of his work is on analysis of matrices and operators and its connections with harmonic analysis, Riemannian geometry, approximation theory, numerical analysis, and physics. He is the author of five books. He is the founder editor of the series Texts and Readings in Mathematics, which has published 75 books, and the series Culture and History of Mathematics, which has published 10. In 2016, he was awarded the Hans Schneider Prize in Linear Algebra. He was elected Fellow of the Indian Academy of Sciences in 1993."
     },
     "talk": {
-        "id": 1508578565488,
+        "id": "1508578565488",
+        "session": "Session 2A: Special Lecture",
+        "chairperson": "Chairperson: S Chandrasekaran, Indian Institute of Science, Bengaluru",
         "title": "Averaging of positive definite matrices",
-        "abstract": "Positive definite matrices arise in several areas – as covariance matrices in statistics, as density matrices in quantum information, as stiffness matrices in mechanics, as diffusion matrices in fluid flow, as kernels in machine learning. Often, it is required to have an averaging operation that respects some structure of the data set. The speaker will describe one such operation, and its connections with geometry. This geometric mean introduced about ten years ago is finding lots of applications in areas like image processing, brain– computer interface, smoothing of radar data. "
+        "abstract": "Positive definite matrices arise in several areas – as covariance matrices in statistics, as density matrices in quantum information, as stiffness matrices in mechanics, as diffusion matrices in fluid flow, as kernels in machine learning. Often, it is required to have an averaging operation that respects some structure of the data set. The speaker will describe one such operation, and its connections with geometry. This geometric mean introduced about ten years ago is finding lots of applications in areas like image processing, brain– computer interface, smoothing of radar data."
     }
 }
