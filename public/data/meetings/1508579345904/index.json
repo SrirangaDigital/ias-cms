@@ -10,6 +10,6 @@
         "session": "Session 2D: Inaugural Lectures by Associates/Fellow",
         "chairperson": "Chairperson: H M Antia, Tata Institute of Fundamental Research, Mumbai",
         "title": "Geometry and topology on random point clouds",
-        "abstract": "From a theoretical and applied viewpoint, there is interest in understanding the topology and geometry of random point clouds. Given a point cloud, one can construct a sequence of growing spaces (called as the Boolean model) by placing balls of radius r centred at the points and letting r grow. In this talk, the speaker will take us through some recent and ongoing work on understanding the topology and geometry of Boolean model built upon random point clouds on Euclidean spaces. He will briefly touch upon the influence of the spatial distribution of point clouds on their qualitative and quantitative features."
+        "abstract": "From a theoretical and applied viewpoint, there is interest in understanding the topology and geometry of random point clouds. Given a point cloud, one can construct a sequence of growing spaces (called as the Boolean model) by placing balls of radius r centred at the points and letting <i>r</i> grow. In this talk, the speaker will take us through some recent and ongoing work on understanding the topology and geometry of Boolean model built upon random point clouds on Euclidean spaces. He will briefly touch upon the influence of the spatial distribution of point clouds on their qualitative and quantitative features."
     }
 }
