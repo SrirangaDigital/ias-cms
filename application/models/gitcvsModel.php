@@ -28,7 +28,7 @@ class gitcvsModel extends Model {
 			// Extract files into three bins - A->Added, M->Modified and D->Deleted. 
 			if(
 				(preg_match('/^([AMD])\s(.*)/', $file, $matches)) && 
-				(preg_match('/public\/data\/meetings\/\d+/', $file))
+				(preg_match('/public\/data\/meetings\/[A-Z][A-Z]\d{4}\/\d+/', $file))
 			  ) {
 
 				array_push($files[$matches[1]], $matches[2]);

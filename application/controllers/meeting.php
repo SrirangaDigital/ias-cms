@@ -36,17 +36,19 @@ class meeting extends Controller {
 		if (!$json) $this->view('error/prompt', array('msg' => 'Error in forming json'));
 		if (!mkdir($jsonPath, 0775, true)) $this->view('error/prompt', array('msg' => 'Error in creating talk folder'));
 		if (!file_put_contents($jsonFile, $json)) $this->view('error/prompt', array('msg' => 'Error in creating file'));
-		if (!$this->addPicture($jsonArray['talk']['id'])) $this->view('page/prompt', array('msg' => 'Talk added but profile picture not uploaded'));
-
+		
+		if (!$this->addPicture(str_replace('/', '_', $jsonArray['talk']['id']))) $this->view('page/prompt', array('msg' => 'Talk added but profile picture not uploaded'));
 		$this->redirect('gitcvs/updateRepo');
 	}
 
 	public function addPicture($id) {
 
+		$id = str_replace('_', '/', $id);
+
 		$tempFile = $_FILES['profilePicture']['tmp_name'];
 		$fileName = PHY_DATA_URL . 'meetings/' . $id . '/profile.jpg';
 
-		echo (move_uploaded_file($tempFile, $fileName)) ? 'True' : 'False';
+		return (move_uploaded_file($tempFile, $fileName)) ? true : false;
 	}
 
 	public function listing($meetingID) {

@@ -64,7 +64,7 @@ $(document).ready(function() {
         
         console.log(formData);
         $.ajax({
-            url: "<?=BASE_URL?>meeting/addPicture/<?=$data['talk']['id']?>",
+            url: "<?=BASE_URL?>meeting/addPicture/<?=str_replace('/', '_', $data['talk']['id'])?>",
             type: "POST",
             data: formData,
             enctype: 'multipart/form-data',
