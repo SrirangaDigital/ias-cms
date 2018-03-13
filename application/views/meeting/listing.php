@@ -51,7 +51,7 @@ if(!$data) echo '<li>Talks are yet to be added</li>';
 foreach ($data as $row) {
     $deleteID = str_replace('/', '_', $row['talk']['id']);
 ?>
-    	<li class="journal-article-list" id="<?=$row['talk']['id']?>">
+    	<li class="journal-article-list" id="<?=$deleteID?>">
             <p class="journal-article-list-title"><?=$row['talk']['title']?></p>
             <p class="journal-article-list-authors">
             	<span><?=$row['speaker']['name']?></span>
