@@ -13,7 +13,7 @@
     <?=$this->printBreadcrumb($path)?>
 
     <h1>Add a talk</h1>
-    <h2><?=MEETING?></h2>
+    <h2><?=constant($meetingID . '_TITLE')?></h2>
 
 <?php if(isset($_SESSION['login'])) {?>
     <form method="POST" class="form-inline updateDataArchive" role="form" id="updateData" action="<?=BASE_URL?>meeting/addTalk" enctype="multipart/form-data">

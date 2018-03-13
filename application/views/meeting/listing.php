@@ -44,11 +44,11 @@ $(document).ready(function() {
     <?=$this->printBreadcrumb($path)?>
 
     <h1>List of talks</h1>
-    <h2><?=MEETING?></h2>
+    <h2><?=constant($data['meetingID'] . '_TITLE')?></h2>
     <ul class="list-unstyled">
 <?php
-if(!$data) echo '<li>Talks are yet to be added</li>';
-foreach ($data as $row) {
+if(!$data['talks']) echo '<li>Talks are yet to be added</li>';
+foreach ($data['talks'] as $row) {
     $deleteID = str_replace('/', '_', $row['talk']['id']);
 ?>
     	<li class="journal-article-list" id="<?=$deleteID?>">

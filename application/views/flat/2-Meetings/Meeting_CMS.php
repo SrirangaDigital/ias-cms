@@ -10,7 +10,7 @@
     <?=$this->printBreadcrumb($path)?>
 
     <h1>Meeting CMS</h1>
-    <h2><?=MEETING?></h2>
+    <h2><?=constant(MEETING_ID . '_TITLE')?></h2>
     <div class="cover-image-carousel-nogap" id="icons">
         <a href="<?=BASE_URL?>meeting/add/<?=MEETING_ID?>/" class="info-icon">
             <i class="fa fa-plus"></i><br />

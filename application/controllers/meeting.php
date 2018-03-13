@@ -55,7 +55,8 @@ class meeting extends Controller {
 
 		if(isset($_SESSION['login'])){
 
-			$talks = $this->model->getTalks($meetingID);
+			$talks['talks'] = $this->model->getTalks($meetingID);
+			$talks['meetingID'] = $meetingID;
 			$this->view('meeting/listing', $talks);
 		}
 		else{
