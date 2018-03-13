@@ -1,0 +1,14 @@
+{
+    "speaker": {
+        "name": "Navakanta Bhat",
+        "affiliation": "Indian Institute of Science, Bengaluru",
+        "biodata": "Navakanta Bhat received PhD in Electrical Engineering from Stanford University, Stanford, in 1996. He joined IISc, in 1999, where he is currently a Professor and Chair, Centre for Nano Science Engineering. His current research is focused on Nanoelectronics device technology, Biosensors for point of care diagnostics and Gas sensors for pollution monitoring. He was instrumental in creating the National Nanofabrication Centre (NNfC) at IISc. He is the recipient of several awards including the Young Engineer award, Swarnajayanti Fellowship, Prof. Satish Dhawan award, IBM Faculty award 2007 and Outstanding Research Investigator award. He is associated with IEEE in various capacities. He is the Chairman of the Human Resource Development and Infrastructure committee of the National Program on Micro and Smart Systems. He was a member of the committee set up by the Principal Scientific Advisor to Govt. of India to recommend strategies to develop semiconductor manufacturing ecosystem in India. He is the founder and promoter of a start-up, PathShodh Healthcare Pvt Ltd., which has developed a revolutionary multi-analyte point-of- care diagnostic device for diabetes and its complications."
+    },
+    "talk": {
+        "id": "AM2017/1508575295367",
+        "session": "Session 1D: Symposium: ‘New Technologies Changing our lives’",
+        "chairperson": "Chairperson: N Viswanadham, Indian Institute of Science, Bengaluru",
+        "title": "PathShodh: A journey from science to product",
+        "abstract": "Navakanta Bhat will describe the fascinating journey of PathShodh in the last few years, traversing through scientific discovery, engineering innovation, entrepreneurial venture and manufacturing scale-up to create one of its kind multi-analyte point of care diagnostic device for multiple chronic diseases including diabetes, kidney and liver disease, anaemia and malnutrition. This device is capable of performing five blood tests (Hb, HbA1c, Serum Albumin, Glycated Albumin, Glucose), and three urine tests (Microalbuminuria, Urine Creatinine and Urine ACR). The low-cost electrochemical sensing technology, which uses disposable test strips, can potentially bridge healthcare divide in the country with a capability to perform tests anywhere, anytime, in remote and resource-challenged areas."
+    }
+}

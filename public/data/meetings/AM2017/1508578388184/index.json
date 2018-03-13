@@ -1,0 +1,14 @@
+{
+    "speaker": {
+        "name": "Jaywant H Arakeri",
+        "affiliation": "Indian Institute of Science, Bengaluru",
+        "biodata": "Jaywant H Arakeri has been a faculty in the Indian Institute of Science since 1988. He is currently a professor in Mechanical Engineering and Centre for Product Design and Manufacture. His research interests are in fluid mechanics and heat transfer, in particu-lar stability, transition and turbulence, unsteady flows, turbulent natural convection, solar energy and ventilation. Some of his recent work is related to flow and heat transfer in greenhouses, and moisture loss from leaves and soils. He obtained his BTech. (1979) from IIT Madras, ME (1981) from IISc and PhD (1987) from California Institute of Technology. He was elected Fellow of the Indian Academy of Sciences in 2011."
+    },
+    "talk": {
+        "id": "AM2017/1508578388184",
+        "session": "Session 1D: Symposium: ‘New Technologies Changing our lives’",
+        "chairperson": "Chairperson: N Viswanadham, Indian Institute of Science, Bengaluru",
+        "title": "Technological and scientific issues related to precision agriculture",
+        "abstract": "The need for increased productivity in agriculture with minimum use of water, fertilizers, pesticides and energy is being increasingly felt, especially in India. Broadly precision agriculture refers to giving the optimum amount of these inputs at the right times. Drip irrigation is an early example and is now widely used in India and the world. Increasingly, development of inexpensive sensor networks, IOT, etc., is leading to infusion of more technology into precision agriculture and is often being termed smart agriculture. There is an urgent need to develop precision agriculture systems for Indian conditions, which often pose unique challenges, like small land holdings and unreliable electrical power. A sorely missing but essential component for developing such technologies is an interaction be-tween researchers from agricultural and biological and engineering sciences and also with the industry. The speaker will present some important scientific and technological issues relevant to precision agriculture in India. He will also present some work done in collaboration between IISc, JNCASR and UAS, Bengaluru in this area: development of a new type of ventilated greenhouse, aeroponics for potato tuber cultivation, intermittent drip irrigation, leaf mimic for measuring transpiration and X-ray imaging for detecting insect bores in plants."
+    }
+}
