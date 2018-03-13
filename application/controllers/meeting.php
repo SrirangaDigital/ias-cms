@@ -12,6 +12,7 @@ class meeting extends Controller {
 		$data['meetingID'] = $meetingID;
 		($meetingID) ? $this->view('meeting/add', $data) : $this->view('error/index');		
 	}
+
 	public function addTalk() {
 
 		$data = $this->model->getPostData();
@@ -35,7 +36,7 @@ class meeting extends Controller {
 		if (!$json) $this->view('error/prompt', array('msg' => 'Error in forming json'));
 		if (!mkdir($jsonPath, 0775, true)) $this->view('error/prompt', array('msg' => 'Error in creating talk folder'));
 		if (!file_put_contents($jsonFile, $json)) $this->view('error/prompt', array('msg' => 'Error in creating file'));
-		if (!$this->addPicture($jsonArray['speaker']['id'])) $this->view('page/prompt', array('msg' => 'Talk added but profile picture not uploaded'));
+		if (!$this->addPicture($jsonArray['talk']['id'])) $this->view('page/prompt', array('msg' => 'Talk added but profile picture not uploaded'));
 
 		$this->redirect('gitcvs/updateRepo');
 	}
@@ -48,11 +49,11 @@ class meeting extends Controller {
 		echo (move_uploaded_file($tempFile, $fileName)) ? 'True' : 'False';
 	}
 
-	public function listing($param, $query = []) {
+	public function listing($meetingID) {
 
 		if(isset($_SESSION['login'])){
 
-			$talks = $this->model->getTalks($param);
+			$talks = $this->model->getTalks($meetingID);
 			$this->view('meeting/listing', $talks);
 		}
 		else{

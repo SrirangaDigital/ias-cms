@@ -10,7 +10,7 @@ class meetingModel extends Model {
 	public function getTalks($meetingID) {
 
 		$talkFiles = glob(PHY_DATA_URL . 'meetings/' . $meetingID . '/*', GLOB_ONLYDIR);
-
+		
 		$data = [];
 		foreach ($talkFiles as $talkFile) {
 			
