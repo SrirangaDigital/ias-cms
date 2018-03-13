@@ -7,9 +7,9 @@ class meetingModel extends Model {
 		parent::__construct();
 	}
 
-	public function getTalks() {
+	public function getTalks($meetingID) {
 
-		$talkFiles = glob(PHY_DATA_URL . '/meetings/*', GLOB_ONLYDIR);
+		$talkFiles = glob(PHY_DATA_URL . '/meetings/' . $meetingID . '/*', GLOB_ONLYDIR);
 
 		$data = [];
 		foreach ($talkFiles as $talkFile) {

@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', 'http://localhost/ias-cms/');
+define('BASE_URL', 'http://192.168.1.101/ias-cms/');
 define('PUBLIC_URL', BASE_URL . 'public/');
 define('STOCK_IMAGE_URL', PUBLIC_URL . 'images/stock/');
 define('PRECAST_URL', BASE_URL . 'precast/');

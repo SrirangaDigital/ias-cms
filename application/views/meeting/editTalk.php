@@ -1,8 +1,8 @@
 <div class="col-md-3 clear-paddings subnav">
     <ul>
-        <li><a href="<?=BASE_URL?>Meetings/Add_Talk/">Add a talk</a></li>
-        <li><a href="<?=BASE_URL?>meeting/listing/">Edit information</a></li>
-        <li><a href="<?=BASE_URL?>meeting/listing/">See list</a></li>
+        <li><a href="<?=BASE_URL?>meeting/add/<?=MEETING_ID?>/">Add a talk</a></li>
+        <li><a href="<?=BASE_URL?>meeting/listing/<?=MEETING_ID?>/">Edit information</a></li>
+        <li><a href="<?=BASE_URL?>Listing/Meetings">Archive</a></li>
     </ul>
 </div>
 <script>
@@ -14,13 +14,13 @@ $(document).ready(function() {
 
         var editDiv = $('[data-name="main-content"]');
         var url = $(this).attr( "action" );
-        console.log(url);
-
+        
         var editedContents = {};
         editedContents.speaker = {};
         editedContents.talk = {};
+        editedContents.externalLink = {};
 
-        editedContents.speaker.id = $('.speaker-name').attr('data-id');
+        // editedContents.speaker.id = $('.speaker-name').attr('data-id');
         editedContents.speaker.name = $.trim($('.speaker-name').html());
         editedContents.speaker.affiliation = $.trim($('.speaker-affiliation').html());
         editedContents.speaker.biodata = $.trim($('.speaker-biodata').html());
@@ -30,6 +30,12 @@ $(document).ready(function() {
         editedContents.talk.chairperson = $.trim($('.talk-chairperson').html());
         editedContents.talk.title = $.trim($('.talk-title').html());
         editedContents.talk.abstract = $.trim($('.talk-abstract').html());
+
+        externalLinks = $.trim($('.externalLink').val()).split(";");
+        $.each(externalLinks, function(index, value){
+            individualLink = value.split("|");
+            editedContents.externalLink[individualLink[0]] = individualLink[1];
+        });
 
         var posting = $.post( url, { data : editedContents } );
 
@@ -58,7 +64,7 @@ $(document).ready(function() {
         
         console.log(formData);
         $.ajax({
-            url: "<?=BASE_URL?>meeting/addPicture/<?=$data['speaker']['id']?>",
+            url: "<?=BASE_URL?>meeting/addPicture/<?=$data['talk']['id']?>",
             type: "POST",
             data: formData,
             enctype: 'multipart/form-data',
@@ -80,14 +86,14 @@ $(document).ready(function() {
 
         <div class="fileinput fileinput-new uploadImage" data-provides="fileinput">
             <div class="fileinput-preview" data-trigger="fileinput">
-                <img src="<?=DATA_URL . 'meetings/' . $data['speaker']['id']?>/profile.jpg">
+                <img src="<?=DATA_URL . 'meetings/' . $data['talk']['id']?>/profile.jpg">
             </div>
             <div>
                 <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" id="profilePicture" name="profilePicture"></span>
                 <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
             </div>
         </div>
-        <h1 class="speaker-name" data-id="<?=$data['speaker']['id']?>"><?=$data['speaker']['name']?></h1>
+        <h1 class="speaker-name" data-id="<?=$data['talk']['id']?>"><?=$data['speaker']['name']?></h1>
         <h2 class="speaker-affiliation"><?=$data['speaker']['affiliation']?></h2>
         <h4>Speaker Biodata</h4>
         <p class="speaker-biodata"><?=$data['speaker']['biodata']?></p>
@@ -97,6 +103,15 @@ $(document).ready(function() {
         <h3 class="talk-title" data-id="<?=$data['talk']['id']?>"><?=$data['talk']['title']?></h3>
         <h4>Abstract of the Talk</h4>
         <p class="talk-abstract"><?=$data['talk']['abstract']?></p>
+<?php
+if(isset($data['externalLink'])) {
+    $combinedlink = [];
+    foreach ($data['externalLink'] as $key => $value) {
+        array_push($combinedlink, $key . '|' . $value);
+    }
+    echo '<input type="hidden" class="externalLink" name="externalLink" value="' . implode(';', array_values($combinedlink)) . '">';
+}
+?>
     </div>
     <div id="content"></div>
     <form method="POST" class="form-inline updateDataArchive" role="form" id="editTalk" action="<?=BASE_URL?>meeting/saveTalk">

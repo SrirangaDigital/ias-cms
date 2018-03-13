@@ -7,13 +7,20 @@ class meeting extends Controller {
 		parent::__construct();
 	}
 
+	public function add($meetingID) {
+
+		$data['meetingID'] = $meetingID;
+		($meetingID) ? $this->view('meeting/add', $data) : $this->view('error/index');		
+	}
 	public function addTalk() {
 
 		$data = $this->model->getPostData();
 
-		if(!$data) $this->redirect('Meetings/Add_Talk/');
+		if(!$data) $this->view('meeting/add', $data);
 		
-		 $jsonArray['talk']['id'] = $jsonArray['speaker']['id'] = round(microtime(true) * 1000);
+		 $jsonArray['talk']['id']  = $data['meetingID'] . '/' . round(microtime(true) * 1000);
+
+		 unset($data['meetingID']);
 
 		foreach ($data as $key => $value) {
 
@@ -22,7 +29,7 @@ class meeting extends Controller {
 		}
 
 		$json = json_encode($jsonArray, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-		$jsonPath = PHY_DATA_URL . 'meetings/' . $jsonArray['speaker']['id'];
+		$jsonPath = PHY_DATA_URL . 'meetings/' . $jsonArray['talk']['id'];
 		$jsonFile = $jsonPath . '/index.json';
 
 		if (!$json) $this->view('error/prompt', array('msg' => 'Error in forming json'));
@@ -41,11 +48,11 @@ class meeting extends Controller {
 		echo (move_uploaded_file($tempFile, $fileName)) ? 'True' : 'False';
 	}
 
-	public function listing() {
+	public function listing($param, $query = []) {
 
 		if(isset($_SESSION['login'])){
 
-			$talks = $this->model->getTalks();		
+			$talks = $this->model->getTalks($param);
 			$this->view('meeting/listing', $talks);
 		}
 		else{
@@ -54,10 +61,10 @@ class meeting extends Controller {
 		}
 	}
 
-	public function editTalk($id = '') {
+	public function editTalk($meetingID, $id) {
 
 		if(isset($_SESSION['login'])){
-			$talkFile = PHY_DATA_URL . 'meetings/' . $id . '/index.json';
+			$talkFile = PHY_DATA_URL . 'meetings/' . $meetingID	. '/' . $id . '/index.json';
 			$talkJsonString = file_get_contents($talkFile);
 			$talk = json_decode($talkJsonString, true);
 		
@@ -73,11 +80,11 @@ class meeting extends Controller {
 
 		$postData = $this->model->getPostData();
 		$data = $postData['data'];
-		$id = $data['speaker']['id'];
+		$id = $data['talk']['id'];
 		$jsonFile = PHY_DATA_URL . 'meetings/' . $id . '/index.json';
 		$json = html_entity_decode(json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
 
-		if(file_put_contents($jsonFile, $json)) {
+			if(file_put_contents($jsonFile, $json)) {
 
 			echo 'True';
 		}

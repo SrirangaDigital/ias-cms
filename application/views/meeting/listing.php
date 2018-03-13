@@ -1,8 +1,8 @@
 <div class="col-md-3 clear-paddings subnav">
     <ul>
-        <li><a href="<?=BASE_URL?>Meetings/Add_Talk/">Add a talk</a></li>
-        <li><a href="<?=BASE_URL?>meeting/listing/">Edit information</a></li>
-        <li><a href="<?=BASE_URL?>meeting/listing/">See list</a></li>
+        <li><a href="<?=BASE_URL?>meeting/add/<?=MEETING_ID?>/">Add a talk</a></li>
+        <li><a href="<?=BASE_URL?>meeting/listing/<?=MEETING_ID?>/">Edit information</a></li>
+        <li><a href="<?=BASE_URL?>Listing/Meetings">Archive</a></li>
     </ul>
 </div>
 <script>
@@ -44,7 +44,7 @@ $(document).ready(function() {
     <?=$this->printBreadcrumb($path)?>
 
     <h1>List of talks</h1>
-    <h2>Annual meetings of the Indian Academy of Sciences - 2017</h2>
+    <h2><?=MEETING?></h2>
     <ul class="list-unstyled">
 <?php
 if(!$data) echo '<li>Talks are yet to be added</li>';

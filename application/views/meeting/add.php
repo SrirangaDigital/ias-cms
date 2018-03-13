@@ -1,8 +1,11 @@
+<?php
+	$meetingID = $data['meetingID'];
+?>
 <div class="col-md-3 clear-paddings subnav">
     <ul>
-        <li><a href="<?=BASE_URL?>Meetings/Add_Talk/">Add a talk</a></li>
-        <li><a href="<?=BASE_URL?>meeting/listing/">Edit information</a></li>
-        <li><a href="<?=BASE_URL?>meeting/listing/">See list</a></li>
+        <li><a href="<?=BASE_URL?>meeting/add/<?=MEETING_ID?>/">Add a talk</a></li>
+        <li><a href="<?=BASE_URL?>meeting/listing/<?=MEETING_ID?>/">Edit information</a></li>
+        <li><a href="<?=BASE_URL?>Listing/Meetings">Archive</a></li>
     </ul>
 </div>
 <div class="col-md-9 clear-paddings">
@@ -10,7 +13,7 @@
     <?=$this->printBreadcrumb($path)?>
 
     <h1>Add a talk</h1>
-    <h2>Annual meetings of the Indian Academy of Sciences - 2017</h2>
+    <h2><?=MEETING?></h2>
 
 <?php if(isset($_SESSION['login'])) {?>
     <form method="POST" class="form-inline updateDataArchive" role="form" id="updateData" action="<?=BASE_URL?>meeting/addTalk" enctype="multipart/form-data">
@@ -53,6 +56,7 @@
             <label class="edit key">Abstract</label>
             <textarea class="form-control edit value" name="talk-abstract" placeholder="In about 500 words" required></textarea>
         </div>
+        <input name="meetingID" type="hidden" id="meetingID" value="<?=$meetingID?>">
         <input class="updateSubmit" type="submit" id="submit" value="Add talk">
     </form>
 <?php } else{ ?>
