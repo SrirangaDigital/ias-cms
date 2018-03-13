@@ -93,10 +93,11 @@ class meeting extends Controller {
 
 	public function deleteTalk($id) {
 
+		$id = str_replace('_', '/', $id);
 		$path = PHY_DATA_URL . 'meetings/' . $id;
 
 		array_map('unlink', glob($path . '/*.*'));
-		echo (rmdir($path)) ? $id : 'False';
+		echo (rmdir($path)) ? str_replace('/', '_', $id) : 'False';
 	}
 }
 

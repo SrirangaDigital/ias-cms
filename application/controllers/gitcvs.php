@@ -13,7 +13,6 @@ class gitcvs extends Controller {
 	public function updateRepo(){
 
 		$statusMsg = array();
-
 		$repo = Git::open(PHY_BASE_URL . '.git');
 
 		// Before all operations, a git pull is done to sync local and remote repos.
@@ -44,7 +43,7 @@ class gitcvs extends Controller {
 		
 		array_push($statusMsg, 'Local changes pushed to remote');				
 
-		$this->redirect('meeting/listing');
+		$this->redirect('meeting/listing/' . MEETING_ID);
 	
 	}
 

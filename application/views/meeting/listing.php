@@ -49,6 +49,7 @@ $(document).ready(function() {
 <?php
 if(!$data) echo '<li>Talks are yet to be added</li>';
 foreach ($data as $row) {
+    $deleteID = str_replace('/', '_', $row['talk']['id']);
 ?>
     	<li class="journal-article-list" id="<?=$row['talk']['id']?>">
             <p class="journal-article-list-title"><?=$row['talk']['title']?></p>
@@ -57,7 +58,7 @@ foreach ($data as $row) {
         	</p>
             <div class="journal-article-list-meta">
                 <span>Edit: <a class="edit" href="<?=BASE_URL . 'meeting/editTalk/' . $row['talk']['id']?>"><?=BASE_URL . 'meeting/editTalk/' . $row['talk']['id']?></a></span>
-                <span><a class="delete" href="#" data-id="<?=$row['talk']['id']?>">Delete</a></span>
+                <span><a class="delete" href="#" data-id="<?=$deleteID?>">Delete</a></span>
             </div>
 	    </li>
 <?php } ?>

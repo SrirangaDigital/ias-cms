@@ -44,7 +44,7 @@ $(document).ready(function() {
             if(data === 'True') {
 
                 $('.modal-body-spinner').show();
-                var gitdone = $.get( base_url+'gitcvs/updateRepo');
+                var gitdone = $.get(base_url+'gitcvs/updateRepo');
                 gitdone.done(function(gitdata){
     
                     $('.modal-body-spinner').hide();
