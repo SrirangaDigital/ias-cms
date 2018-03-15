@@ -10,5 +10,8 @@
         "chairperson": "Chairperson: S Ananthakrishnan, Savitribai Phule Pune University,&nbsp;Pune",
         "title": "What is finiteness?",
         "abstract": "What is finiteness? We know about finite sets, about finitely generated vector spaces, finitely generated algebras and compact sets. Each of these conveys a notion of finiteness in a certain framework. But is there a single algebraic notion of finiteness that describes them all?"
+    },
+    "externalLink": {
+		"presentation": "http://www.ias.ac.in/AM2017/public/pdf/83AM2017/Abhishek_Banerjee.pdf"
     }
 }
