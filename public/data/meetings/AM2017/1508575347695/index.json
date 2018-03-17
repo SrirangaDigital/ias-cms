@@ -12,7 +12,7 @@
         "abstract": "The Internet of Things (IoT) promises to transform industries across the spectrum, by em-bedding sensing and communication capabilities in things that then push a steady stream of data to the cloud, where this data is converted into actionable intelligence. After surveying the landscape, the speaker will address the question of how IoT could play a transformative role in the socio-economic context of India and the challenges to be overcome, such as the need to keep costs low and not depend on always-on connectivity. The talk will focus specifically on two domains where research is being pursued at Microsoft Research India: road safety and agriculture. In the former, the speaker will present a system called HAMS that leverages smartphones and other low-cost sensors to monitor drivers and their driving, with a view to providing targeted feedback on unsafe behaviours. In the latter, he will dis-cuss a system called FarmBeats that uses balloon-mounted airborne sensors together with ground sensors to enable data-driven farming."
     },
     "externalLink": {
-		"presentation": "http://www.ias.ac.in/AM2017/public/pdf/83AM2017/V_Padmanabhan.pdf",
+		"presentation": "yes",
 		"youtube": "https://www.youtube.com/embed/d8ZyVBggSLY"
     }
 }

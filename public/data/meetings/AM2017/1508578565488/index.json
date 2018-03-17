@@ -12,7 +12,7 @@
         "abstract": "Positive definite matrices arise in several areas – as covariance matrices in statistics, as density matrices in quantum information, as stiffness matrices in mechanics, as diffusion matrices in fluid flow, as kernels in machine learning. Often, it is required to have an averaging operation that respects some structure of the data set. The speaker will describe one such operation, and its connections with geometry. This geometric mean introduced about ten years ago is finding lots of applications in areas like image processing, brain– computer interface and smoothing of radar data."
     },
     "externalLink": {
-		"presentation": "http://www.ias.ac.in/AM2017/public/pdf/83AM2017/R_Bhatia.pdf",
+		"presentation": "yes",
 		"youtube": "https://www.youtube.com/embed/CYrPPl_crqE"
     }
 }

@@ -12,7 +12,7 @@
         "abstract": "Horizontal data aggregation/dissemination from IoT devices will enable many new intel-ligent applications for smart cities. The speaker will describe his efforts in that direction, built on top of a hardware test bed consisting of smart street poles. The test bed will en-able addressing some research challenges related to developing real-time, spatio-temporally constrained applications as well as larger problems related to smartX systems for cities (X=energy, water, etc.)."
     },
     "externalLink": {
-		"presentation": "http://www.ias.ac.in/AM2017/public/pdf/83AM2017/Amrutur_Bharadwaj.pdf",
+		"presentation": "yes",
 		"youtube": "https://www.youtube.com/embed/QEo81msAMHg"
     }
 }
