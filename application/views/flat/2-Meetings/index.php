@@ -2,7 +2,7 @@
     <ul class="">
         <li><a href="Meeting_CMS">Meeting CMS</a></li>
         <li><a href="#">Upcoming Meeting Website</a></li>
-        <li><a href="#">Meeting Archives</a></li>
+        <li><a href="<?=BASE_URL?>Listing/Meetings">Meeting Archives</a></li>
     </ul>
 </div>
 <div class="col-md-9 clear-paddings">
