@@ -1,0 +1,32 @@
+{
+    "speaker": {
+        "name": "Ramesh Hariharan",
+        "affiliation": "Strand Life Sciences, Bengaluru",
+        "biodata": "Ramesh Hariharan is the CEO and co-founder of Strand Life Sciences, Bengaluru, and
+an Adjunct Professor at IISc, Bengaluru. He did his B. Tech from IIT Delhi and his PhD
+from the Courant Institute, New York University. Following this, he moved to the Max
+Planck Institute as a postdoc and later spent ten years as full-time faculty working on algorithms
+research at IISc. At Strand, he straddles the fields of computer science and life
+science, working on algorithms that yield insights into biological systems and diseases.
+His recognitions include the MIT Technology Review TR100 list (2001), the first Devang
+Mehta award for IT (2002), and the Distinguished Alumnus of IITD (2015). He is also the
+author of Genomic Quirks. He is a Fellow of the Indian National Academy of Engineering
+and was selected as an Associate of the Indian Academy of Sciences during 2000–2004 and
+later elected a Fellow in 2016."
+    },
+    "talk": {
+        "id": "MM2018/1528545619677",
+        "session": "Session",
+        "chairperson": "Data Not available",
+        "title": "Industrializing genomic diagnoses in India",
+        "abstract": "In instances of heritable disease with confounding phenotypic presentation, sequencing
+the genome is the only method to obtain a diagnosis. Genome sequencing in such a setting
+poses a number of challenges. A large number of genes have to be sequenced. The
+consequent data sizes are large, requiring large-scale algorithms. A large number of inconsequential
+mutations then have to be separated from true causative ones. This requires a
+number of different predictive methods, as well as the reading of the literature. All of this
+complexity adds cost, which is always constraining in the Indian setting. In this talk, the
+speaker will share his experiences in making each of these steps efficient and quick, and the
+consequent experiences in providing diagnoses for several thousand patients."
+    }
+}
