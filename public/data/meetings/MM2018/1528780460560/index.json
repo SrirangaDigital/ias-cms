@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "MM2018/1528780460560",
+        "session": "Session",
+        "chairperson": "Data Not available",
+        "title": "Identification of a host biomarker signature for detecting tuberculosis through a blood test",
+        "abstract": "Efficient diagnosis of tuberculosis (TB) is met with multiple challenges, calling for a shift&#13;&#10;of focus from pathogen-centric diagnostics towards the identification of host-based multimarker&#13;&#10;signatures. Transcriptomics offer a list of differentially expressed genes, but cannot&#13;&#10;by itself identify the most influential contributors to the disease phenotype. The speaker will&#13;&#10;discuss a computational pipeline that adopts an unbiased approach to investigate host factors&#13;&#10;that are altered significantly due to TB to identify a biomarker signature. The pipeline&#13;&#10;is based on the integration of various techniques including network-mapping of RNA-Seq&#13;&#10;data of TB patients, systemic identification of variations in healthy and TB samples, sensitive&#13;&#10;network mining to shortlist gene candidates central to disease alterations, and application&#13;&#10;of a series of filters. The study has resulted in the identification of a signature&#13;&#10;comprising 10 genes that can discriminate between TB and healthy controls as well as distinguish&#13;&#10;TB from latent tuberculosis and HIV in most cases. The potential of this signature&#13;&#10;as a diagnostic marker of TB will be discussed."
+    },
+    "speaker": {
+        "name": "Nagasuma Chandra",
+        "affiliation": "IISc, Bengaluru",
+        "biodata": "Nagasuma Chandra is a Professor in the Department of Biochemistry, IISc, Bengaluru&#13;&#10;and is additionally affiliated with Bioengineering and Mathematical Biology initiatives at&#13;&#10;the institute. She received her PhD from the University of Bristol in 1992. She works&#13;&#10;on modelling complex biological processes and applying them to study human health and&#13;&#10;disease with particular focus on tuberculosis. She is the recipient of the DST-National&#13;&#10;Bioscience Award for Career Development (2008). She was elected a Fellow of the Indian&#13;&#10;Academy of Sciences in 2018."
+    }
+}
