@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "MM2018/1528781102284",
+        "session": "Session",
+        "chairperson": "Data Not available",
+        "title": "Cryptographic primitives for blockchains",
+        "abstract": "Anonymity, authenticity, and secrecy are the key issues in blockchain technology. To&#13;&#10;achieve these, the cryptographic primitives required are: hash functions, public key cryptography,&#13;&#10;and digital signature. The speaker will explain each of these concepts along with&#13;&#10;its strengths. Algorithms related to these also will be presented in brief."
+    },
+    "speaker": {
+        "name": "Bimal Roy",
+        "affiliation": "ISI, Kolkata",
+        "biodata": "Bimal Roy has served as the Director of Indian Statistical Institute during 2010–15 and&#13;&#10;is presently heading the R C Bose Centre for Cryptology and Security of ISI. He holds&#13;&#10;a PhD from the University of Waterloo, Canada, and has been on the faculty of ISI for&#13;&#10;over 30 years. He specializes in the areas of cryptology and statistics. He is Founder&#13;&#10;and General-Secretary of the Cryptology Research Society of India. He is the recipient&#13;&#10;of several awards and honors including Padma Shri from the Government of India (2015),&#13;&#10;INSA Teachers Award (2014), IBM Faculty Award, and Reliance-NASI Platinum Jubilee&#13;&#10;Award (2007)."
+    }
+}
