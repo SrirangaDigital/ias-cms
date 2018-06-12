@@ -1,14 +1,36 @@
 {
+    "speaker": {
+        "name": "Upinder Singh",
+        "affiliation": "University of Delhi, Delhi",
+        "biodata": "Upinder Singh is Professor of History and National Coordinator for History at the Institute of Life Long
+Learning, University of Delhi. An alumna of the University of Delhi, she holds a doctorate from McGill
+University, Canada. She is a prolific author, and her writings range over various aspects of ancient Indian
+history, archaeology, and the modern histories of ancient sites and monuments. She is the author of Kings,
+Brˉahmana.s, and Temples in Orissa: An Epigraphic Study (AD 3001147) (1994), Ancient Delhi (1999), The
+Discovery of Ancient India: Early Archaeologists and the Beginnings of Archaeology (2004), A History of
+Ancient and Early Medieval India: From the Stone Age to the Twelfth Century (2008), The Idea of Ancient
+India: Essays on Religion, Politics, and Archaeology (2016), and Political Violence in Ancient India (2017).
+She has edited Delhi: Ancient History (2006) and Rethinking Early Medieval India (2011) and has co-edited
+Ancient India: New Research (2009), Asian Encounters: exploring connected histories (2014), and Buddhism
+in Asia: Revival and Reinvention (2016). She has many national and international awards and honours to her
+credit and was awarded the Infosys Prize in Social Sciences – History in 2009."
+    },
     "talk": {
         "id": "MM2018/1528780213265",
         "session": "Session 1E: Public Lecture",
         "chairperson": "R Ramaswamy, JNU, New Delhi",
         "title": "Politics and violence: Ancient debates on a perennial problem",
-        "abstract": "The recognition of the pragmatic need for the king to exercise a certain amount of force&#13;&#10;while discharging his duties and the positive value attached to the principle of non-violence&#13;&#10;created an enduring and irresoluble tension in the ancient Indian political thought. Focusing&#13;&#10;on the ancient debates on political violence in general and war, punishment, and the&#13;&#10;interface with the forest in particular, this lecture argues that there is no single ‘Indian’ theory&#13;&#10;of kingship or political violence. Rather, it is highlighted that there have been intense&#13;&#10;conversations and a variety of responses to the realities and challenges of political practice.&#13;&#10;The talk explores how the kings need to use force to maintain and strengthen his position&#13;&#10;was upheld while a distinction was made between necessary force and the force that was&#13;&#10;unnecessary, disproportionate, excessive or random. The lecture further argues that political&#13;&#10;violence was justified, aestheticized, and almost invisibilized, though a window of&#13;&#10;questioning and critique remained."
-    },
-    "speaker": {
-        "name": "Upinder Singh",
-        "affiliation": "University of Delhi, Delhi",
-        "biodata": "Upinder Singh is Professor of History and National Coordinator for History at the Institute of Life Long&#13;&#10;Learning, University of Delhi. An alumna of the University of Delhi, she holds a doctorate from McGill&#13;&#10;University, Canada. She is a prolific author, and her writings range over various aspects of ancient Indian&#13;&#10;history, archaeology, and the modern histories of ancient sites and monuments. She is the author of Kings,&#13;&#10;Brˉahmana.s, and Temples in Orissa: An Epigraphic Study (AD 3001147) (1994), Ancient Delhi (1999), The&#13;&#10;Discovery of Ancient India: Early Archaeologists and the Beginnings of Archaeology (2004), A History of&#13;&#10;Ancient and Early Medieval India: From the Stone Age to the Twelfth Century (2008), The Idea of Ancient&#13;&#10;India: Essays on Religion, Politics, and Archaeology (2016), and Political Violence in Ancient India (2017).&#13;&#10;She has edited Delhi: Ancient History (2006) and Rethinking Early Medieval India (2011) and has co-edited&#13;&#10;Ancient India: New Research (2009), Asian Encounters: exploring connected histories (2014), and Buddhism&#13;&#10;in Asia: Revival and Reinvention (2016). She has many national and international awards and honours to her&#13;&#10;credit and was awarded the Infosys Prize in Social Sciences – History in 2009."
+        "abstract": "The recognition of the pragmatic need for the king to exercise a certain amount of force
+while discharging his duties and the positive value attached to the principle of non-violence
+created an enduring and irresoluble tension in the ancient Indian political thought. Focusing
+on the ancient debates on political violence in general and war, punishment, and the
+interface with the forest in particular, this lecture argues that there is no single ‘Indian’ theory
+of kingship or political violence. Rather, it is highlighted that there have been intense
+conversations and a variety of responses to the realities and challenges of political practice.
+The talk explores how the kings need to use force to maintain and strengthen his position
+was upheld while a distinction was made between necessary force and the force that was
+unnecessary, disproportionate, excessive or random. The lecture further argues that political
+violence was justified, aestheticized, and almost invisibilized, though a window of
+questioning and critique remained."
     }
 }
