@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "MM2018/1528780997404",
+        "session": "Session 2C – Symposium on “Blockchains and Cryptocurrency”",
+        "chairperson": ": R L Karandikar, CMI, Chennai",
+        "title": "Introduction to blockchains",
+        "abstract": "A blockchain is a list of records or blocks that grows continuously. Blockchains can be&#13;&#10;used to implement distributed ledgers that maintain a permanent and verifiable transaction&#13;&#10;history. Blockchains are typically managed by a peer-to-peer network with decentralized&#13;&#10;updates. Distributed consensus protocols are used to maintain coherence. Integrity against&#13;&#10;tampering is ensured through cryptography. The speaker will explain the theory and technology&#13;&#10;behind blockchains as well as the implications for applications of features such as&#13;&#10;cryptography and decentralized control."
+    },
+    "speaker": {
+        "name": "Madhavan Mukund",
+        "affiliation": "CMI, Chennai",
+        "biodata": "Madhavan Mukund is presently Professor and Dean of Studies at the Chennai Mathematical&#13;&#10;Institute (CMI). He studied at IIT Bombay (B.Tech) and Aarhus University (PhD) before&#13;&#10;joining the faculty of CMI in 1992. He is also Director of the Indo-French Research Lab&#13;&#10;in Computer Science (ReLaX) set up in CMI by the French National Centre for Research&#13;&#10;in Computer Science (CNRS) and is President of the ACM India Council. He has been the&#13;&#10;National Coordinator of the Indian Computing Olympiad since 2002 and has taught several&#13;&#10;courses in the MOOC initiatives of Microsoft Research and the National Programme for&#13;&#10;Technology Enhanced Learning (NPTEL) project of MHRD. He has served as President&#13;&#10;of the Indian Association for Research in Computing Science. His main research area is&#13;&#10;formal verification. He was elected a Fellow of the Indian Academy of Sciences in 2018."
+    }
+}
