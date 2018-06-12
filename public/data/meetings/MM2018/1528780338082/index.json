@@ -1,14 +1,29 @@
 {
+    "speaker": {
+        "name": "Prabal K Maiti",
+        "affiliation": "IISc, Bengaluru",
+        "biodata": "Prabal K Maiti is a Professor in the Department of Physics, IISc, Bengaluru. He received
+his PhD in Physics from IIT Kanpur, followed by postdoctoral stays at MPIP-Mainz, the
+University of Colorado at Boulder, and Caltech, USA. He primarily works in the area of
+multiscale modelling of soft and bio-materials. Areas of current research interest include
+structure and dynamics of dendrimers, DNA-based nanotechnology, DNA-dendrimer complexation,
+and properties of water under strong confinement. He was elected a Fellow of
+the Indian Academy of Sciences in 2018."
+    },
     "talk": {
         "id": "MM2018/1528780338082",
         "session": "Session",
         "chairperson": "Data Not available",
         "title": "Structure, dynamics and thermodynamics of confined water",
-        "abstract": "Water is the essence of life and various properties of water molecules have intrigued researchers&#13;&#10;from time immemorial. The speaker studies various translational and orientational&#13;&#10;dynamics of water molecules confined inside a carbon nanotube using atomistic&#13;&#10;molecular dynamics simulation and tries to understand the thermodynamics of water entering&#13;&#10;inside a hydrophobic nanotube by calculating the Helmholtz free energy of water&#13;&#10;using two-phase thermodynamic method. Based on these studies, the speaker has proposed&#13;&#10;a mechanism of water permeation in helium impermeable graphene oxide (GO) membrane&#13;&#10;using the calculation of potential of mean force (PMF). PMF calculations of the oxidized&#13;&#10;part of the GO sheets in helium and oxidized part of the GO in water will be discussed&#13;&#10;highlighting the difference in their permeation path."
-    },
-    "speaker": {
-        "name": "Prabal K Maiti",
-        "affiliation": "IISc, Bengaluru",
-        "biodata": "Prabal K Maiti is a Professor in the Department of Physics, IISc, Bengaluru. He received&#13;&#10;his PhD in Physics from IIT Kanpur, followed by postdoctoral stays at MPIP-Mainz, the&#13;&#10;University of Colorado at Boulder, and Caltech, USA. He primarily works in the area of&#13;&#10;multiscale modelling of soft and bio-materials. Areas of current research interest include&#13;&#10;structure and dynamics of dendrimers, DNA-based nanotechnology, DNA-dendrimer complexation,&#13;&#10;and properties of water under strong confinement. He was elected a Fellow of&#13;&#10;the Indian Academy of Sciences in 2018."
+        "abstract": "Water is the essence of life and various properties of water molecules have intrigued researchers
+from time immemorial. The speaker studies various translational and orientational
+dynamics of water molecules confined inside a carbon nanotube using atomistic
+molecular dynamics simulation and tries to understand the thermodynamics of water entering
+inside a hydrophobic nanotube by calculating the Helmholtz free energy of water
+using two-phase thermodynamic method. Based on these studies, the speaker has proposed
+a mechanism of water permeation in helium impermeable graphene oxide (GO) membrane
+using the calculation of potential of mean force (PMF). PMF calculations of the oxidized
+part of the GO sheets in helium and oxidized part of the GO in water will be discussed
+highlighting the difference in their permeation path."
     }
 }
