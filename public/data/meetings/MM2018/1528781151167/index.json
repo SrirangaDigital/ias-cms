@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "MM2018/1528781151167",
+        "session": "Session",
+        "chairperson": "Data Not available",
+        "title": "Bitcoin – economic aspects",
+        "abstract": "The talk will explore the fundamental features of Bitcoin as money. Some of the questions&#13;&#10;that will be addressed are: What gives Bitcoin its value? What are some of the fundamental&#13;&#10;choices in the Bitcoin algorithm that determine the economics of Bitcoin as a currency?&#13;&#10;How much can Bitcoin grow? Are there inherent limitations to its growth?"
+    },
+    "speaker": {
+        "name": "S P Suresh",
+        "affiliation": "CMI, Chennai",
+        "biodata": "S P Suresh is an Associate Professor of Theoretical Computer Science at the Chennai&#13;&#10;Mathematical Institute. He completed his MCA from REC (now NIT) Trichy (1996), holds&#13;&#10;a PhD from the Institute of Mathematical Sciences, Chennai, and has been working at CMI&#13;&#10;for the past 15 years. His research interests include logic in computer science, concurrency&#13;&#10;and distributed computing, and formal methods for security."
+    }
+}
