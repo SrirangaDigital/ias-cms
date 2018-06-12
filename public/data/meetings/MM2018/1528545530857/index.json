@@ -1,14 +1,39 @@
 {
+    "speaker": {
+        "name": "C Narayana",
+        "affiliation": "JNCASR, Bengaluru",
+        "biodata": "C Narayana is a Professor at Chemistry and Physics of Materials Unit, JNCASR, Bengaluru.
+He is also the Chairman, of the Unit and former Dean, Fellowships and Extension
+Programmes, at JNCASR. He holds a PhD from IISc, Bengaluru and a postdoc from Cornell
+University, New York. He specializes in Raman spectroscopy and ultra-high-pressure
+research. He heads the only laboratory in the country working on Brillion Spectroscopy.
+He is the Coordinator of the program for developing the high-pressure X-ray diffraction facility
+for Indian scientists at Photon Factory, Japan and the India@DESY program of IndiaGermany
+at the synchrotron PETRA III, Germany. He has published many papers, holds
+patents and has received many awards. He was elected a Fellow of the Indian Academy of
+Sciences in 2018"
+    },
     "talk": {
         "id": "MM2018/1528545530857",
         "session": "Session",
         "chairperson": "Data Not available",
         "title": "Application of Raman spectroscopy from condense matter to biology",
-        "abstract": "With the advent of nanotechnology, the scope of application of Raman spectroscopy has&#13;&#10;extended beyond being a mere spectroscopic/characterization tool. Unfortunately, the full&#13;&#10;potential of Raman spectroscopy remains unexplored. Due to the ease of application and its&#13;&#10;ability to decipher interconnection with electronic states and spin states along with structural&#13;&#10;and vibrational properties, Raman spectroscopy has an edge over many other tools&#13;&#10;available and can be used to investigate the microscopic origin of molecular properties.&#13;&#10;The talk will discuss such potentials of Raman spectroscopy based on studies conducted&#13;&#10;on molecules of importance in condensed matter physics/biology. The first example is that&#13;&#10;of 1T–TiTe2, a prominent layered 2D system topological insulator. The multiple indirect&#13;&#10;signatures of electronic transition in 1T–TiTe2 will be discussed in connection with the recent&#13;&#10;theoretical proposal for 1T–TiTe2, and also the possibility of an electronic topological&#13;&#10;transition from electronic Fermi surface calculations. The talk will also discuss the use of&#13;&#10;Raman spectroscopy in the investigation of molecular-level changes in the zeolitic imidazolate&#13;&#10;framework ZIF-8, as a function of temperature. Further delving into the applications&#13;&#10;of Raman spectroscopy in biology, the talk will highlight the use of surface enhanced Raman&#13;&#10;spectroscopy (SERS) in understanding the selective inhibition of oncogenic Aurora A&#13;&#10;Kinase by Felodipine."
-    },
-    "speaker": {
-        "name": "C Narayana",
-        "affiliation": "JNCASR, Bengaluru",
-        "biodata": "C Narayana is a Professor at Chemistry and Physics of Materials Unit, JNCASR, Bengaluru.&#13;&#10;He is also the Chairman, of the Unit and former Dean, Fellowships and Extension&#13;&#10;Programmes, at JNCASR. He holds a PhD from IISc, Bengaluru and a postdoc from Cornell&#13;&#10;University, New York. He specializes in Raman spectroscopy and ultra-high-pressure&#13;&#10;research. He heads the only laboratory in the country working on Brillion Spectroscopy.&#13;&#10;He is the Coordinator of the program for developing the high-pressure X-ray diffraction facility&#13;&#10;for Indian scientists at Photon Factory, Japan and the India@DESY program of IndiaGermany&#13;&#10;at the synchrotron PETRA III, Germany. He has published many papers, holds&#13;&#10;patents and has received many awards. He was elected a Fellow of the Indian Academy of&#13;&#10;Sciences in 2018"
+        "abstract": "With the advent of nanotechnology, the scope of application of Raman spectroscopy has
+extended beyond being a mere spectroscopic/characterization tool. Unfortunately, the full
+potential of Raman spectroscopy remains unexplored. Due to the ease of application and its
+ability to decipher interconnection with electronic states and spin states along with structural
+and vibrational properties, Raman spectroscopy has an edge over many other tools
+available and can be used to investigate the microscopic origin of molecular properties.
+The talk will discuss such potentials of Raman spectroscopy based on studies conducted
+on molecules of importance in condensed matter physics/biology. The first example is that
+of 1T–TiTe2, a prominent layered 2D system topological insulator. The multiple indirect
+signatures of electronic transition in 1T–TiTe2 will be discussed in connection with the recent
+theoretical proposal for 1T–TiTe2, and also the possibility of an electronic topological
+transition from electronic Fermi surface calculations. The talk will also discuss the use of
+Raman spectroscopy in the investigation of molecular-level changes in the zeolitic imidazolate
+framework ZIF-8, as a function of temperature. Further delving into the applications
+of Raman spectroscopy in biology, the talk will highlight the use of surface enhanced Raman
+spectroscopy (SERS) in understanding the selective inhibition of oncogenic Aurora A
+Kinase by Felodipine."
     }
 }
