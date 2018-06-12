@@ -1,14 +1,34 @@
 {
+    "speaker": {
+        "name": "Yamuna Krishnan",
+        "affiliation": "University of Chicago, USA",
+        "biodata": "Yamuna Krishnan is Professor and Brain Research Foundation Fellow of Chemistry at
+the Grossman Institute of Neuroscience, University of Chicago. She received her PhD
+from IISc, Bengaluru (2002), and did her postdoctoral research at University of Cambridge,
+UK (2005). Research in her laboratory spans organic synthesis, nucleic acid biophysics,
+biochemistry, molecular biology, and cell biology. Her lab has pioneered the deployment
+of DNA nanodevices as quantitative fluorescent reporters of second messengers for in vivo
+imaging. She is the recipient of many awards including the Infosys Prize for Physical
+Sciences (2017), the AVRA Young Scientist Award (2014), the Wellcome Trust Senior
+Fellowship (2010), and the INSA Young Scientist Medal (2009). She is also the youngest
+woman recipient of the Shanti Swarup Bhatnagar Award (2013) and has featured in Cell’s
+40 under 40 (2014). She was selected as an Associate of the Indian Academy of Sciences
+during 2005–2009."
+    },
     "talk": {
         "id": "MM2018/1528546354066",
         "session": "Session 1D: Symposium on “Remembering Francis Crick: A multifaceted visionary scientist”",
         "chairperson": "Manju Bansal, IISc, Bengaluru",
         "title": "Quantitative chemical imaging in vivo",
-        "abstract": "DNA can be self-assembled into molecularly precise, well-defined, synthetic assemblies&#13;&#10;on the nanoscale, commonly referred to as the designer DNA nanodevices. In this context,&#13;&#10;the speaker’s lab works on creating synthetic, chemically responsive, DNA-based fluorescent&#13;&#10;probes. In 2009 Yamuna and co-workers discovered that these designer nanodevices&#13;&#10;could function as fluorescent reporters to quantitatively image ions in real time in living&#13;&#10;systems. This marked the first-ever study on the functioning of DNA nanodevices inside&#13;&#10;a living cell without being interfered with or interfering with, the cells own networks of&#13;&#10;DNA control. In this talk, the speaker will discuss some unpublished work on how her lab&#13;&#10;has expanded this technology from ion imaging to quantitatively imaging reactive species&#13;&#10;as well as enzymatic cleavage with subcellular spatial resolution in vivo."
-    },
-    "speaker": {
-        "name": "Yamuna Krishnan",
-        "affiliation": "University of Chicago, USA",
-        "biodata": "Yamuna Krishnan is Professor and Brain Research Foundation Fellow of Chemistry at&#13;&#10;the Grossman Institute of Neuroscience, University of Chicago. She received her PhD&#13;&#10;from IISc, Bengaluru (2002), and did her postdoctoral research at University of Cambridge,&#13;&#10;UK (2005). Research in her laboratory spans organic synthesis, nucleic acid biophysics,&#13;&#10;biochemistry, molecular biology, and cell biology. Her lab has pioneered the deployment&#13;&#10;of DNA nanodevices as quantitative fluorescent reporters of second messengers for in vivo&#13;&#10;imaging. She is the recipient of many awards including the Infosys Prize for Physical&#13;&#10;Sciences (2017), the AVRA Young Scientist Award (2014), the Wellcome Trust Senior&#13;&#10;Fellowship (2010), and the INSA Young Scientist Medal (2009). She is also the youngest&#13;&#10;woman recipient of the Shanti Swarup Bhatnagar Award (2013) and has featured in Cell’s&#13;&#10;40 under 40 (2014). She was selected as an Associate of the Indian Academy of Sciences&#13;&#10;during 2005–2009."
+        "abstract": "DNA can be self-assembled into molecularly precise, well-defined, synthetic assemblies
+on the nanoscale, commonly referred to as the designer DNA nanodevices. In this context,
+the speaker’s lab works on creating synthetic, chemically responsive, DNA-based fluorescent
+probes. In 2009 Yamuna and co-workers discovered that these designer nanodevices
+could function as fluorescent reporters to quantitatively image ions in real time in living
+systems. This marked the first-ever study on the functioning of DNA nanodevices inside
+a living cell without being interfered with or interfering with, the cells own networks of
+DNA control. In this talk, the speaker will discuss some unpublished work on how her lab
+has expanded this technology from ion imaging to quantitatively imaging reactive species
+as well as enzymatic cleavage with subcellular spatial resolution in vivo."
     }
 }
