@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "MM2018/1528780820756",
+        "session": "Session",
+        "chairperson": "Data Not available",
+        "title": "Reliability of CMOS IC chips – from atoms to processors",
+        "abstract": "Integrated circuit (IC) chips are ubiquitous in all electronic products used today. The semiconductor&#13;&#10;industry has made tremendous progress in delivering ICs with increased performance&#13;&#10;over the years, resulting in better products. However, during operation, these ICs&#13;&#10;degrade over time and eventually fail. Therefore, the industry must ensure that the reliability&#13;&#10;(or rate of failure) of these ICs is not compromised when a new technology is developed&#13;&#10;and delivered and that the products should operate over their specified usage life. In this&#13;&#10;talk, the speaker will discuss the methodologies and models for predetermining the ageing&#13;&#10;and failure of these chips – from technology (transistors) to full chip (circuits) level. These&#13;&#10;methods are helpful in accessing and rectifying potential reliability issues during CMOS&#13;&#10;(complementary metal-oxide-semiconductor) technology qualification."
+    },
+    "speaker": {
+        "name": "Souvik Mahapatra",
+        "affiliation": "IIT Bombay, Mumbai",
+        "biodata": "Souvik Mahapatra is a Professor of Electrical Engineering at IIT Bombay. He received&#13;&#10;his PhD from IIT Bombay in 1999 and was a researcher at the Bell Laboratories, USA, during&#13;&#10;2000–01 before rejoining IIT Bombay in 2002. His research interests include reliability&#13;&#10;of CMOS devices and circuits. He has received many awards including the INAE-Young&#13;&#10;Engineer Award (2004), the Tan Chin Tuan Fellowship by Singapore Government (2008),&#13;&#10;the PRL-Vikram Sarabhai Award (2014), and the Erasmus Mundus Fellowship (visiting fellow&#13;&#10;at IMEC, Belgium, 2015). He is a Fellow of the Institute of Electrical and Electronics&#13;&#10;Engineers and Indian National Academy of Engineering. He was elected a Fellow of the&#13;&#10;Indian Academy of Sciences in 2018.&#13;&#10;***"
+    }
+}
