@@ -2,24 +2,13 @@
     "speaker": {
         "name": "Rajeeva L Karandikar",
         "affiliation": "CMI, Chennai",
-        "biodata": "Rajeeva L Karandikar is currently the Director of the Chennai Mathematical Institute.
-He holds a PhD (1981) from ISI, Kolkata. He was on the faculty of ISI, Delhi from 1984
-till 2006 and has served as the Head of the Delhi Center of ISI. During 2006–2010, he was
-the Executive Vice President of Cranes Software, Bengaluru. He works on various aspects
-of probability theory and is also interested in cryptography, finance, and psephology. He is
-the recipient of the Shanti Swarup Bhatnagar Prize in Mathematical Sciences and the National
-Award in Statistics in honour of Professor C R Rao by the Ministry of Statistics and
-Programme Implementation, Government of India. He is a Fellow of the Indian National
-Science Academy and was elected a Fellow of the Indian Academy of Sciences in 1994."
+        "biodata": "Rajeeva L Karandikar is currently the Director of the Chennai Mathematical Institute. He holds a PhD (1981) from ISI, Kolkata. He was on the faculty of ISI, Delhi from 1984 till 2006 and has served as the Head of the Delhi Center&nbsp; of ISI. During 2006–2010, he was the Executive Vice President of Cranes Software, Bengaluru. He works on various aspects of probability theory and is also interested in cryptography, finance, and psephology. He is the recipient of the Shanti Swarup Bhatnagar Prize in Mathematical Sciences and the National Award in Statistics in honour of Professor C R Rao by the Ministry of Statistics and Programme Implementation, Government of India. He is a Fellow of the Indian National Science Academy and was elected a Fellow of the Indian Academy of Sciences in 1994."
     },
     "talk": {
         "id": "MM2018/1528781202981",
         "session": "Session",
         "chairperson": "Data Not available",
         "title": "Blockchains: Beyond cryptocurrency",
-        "abstract": "In this talk, the speaker will review the discussion on blockchains and bitcoins. In addition,
-he will also discuss the potential uses of blockchains beyond cryptocurrency, for example,
-for land and medical records. The talk will also highlight the pros and cons of evolving
-such a system."
+        "abstract": "In this talk, the speaker will review the discussion on blockchains and bitcoins. In addition, he will also discuss the potential uses of blockchains beyond cryptocurrency, for example, for land and medical records. The talk will also highlight the pros and cons of evolving such a system."
     }
 }
