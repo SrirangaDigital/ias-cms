@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540375976736",
+        "session": "SESSION 3B: Inaugural lectures by Fellows/Associates",
+        "chairperson": "A K Singhvi, Physical Research Laboratory, Ahmedabad",
+        "title": "An introduction to some aspects of ergodic theory",
+        "abstract": "The word ‘ergodic’ derived from the Greek, from ergon meaning ‘work’&#13;&#10;and hodos meaning ‘way’. It owes its origin as a subject to the work&#13;&#10;of L Boltzmann on the kinetic theory of gases. Boltzmann coined the&#13;&#10;term ‘ergodic hypothesis’ to describe chaotic systems that satisfy certain&#13;&#10;desirable properties, including ‘equidistribution’, namely that the&#13;&#10;average time the system spends in a phase region is proportional to the volume of the region.&#13;&#10;Subsequently, ergodic theory developed into a separate branch of mathematics with extensive&#13;&#10;connections to both the pure and applied sciences. Somewhat surprisingly, ergodic theory has&#13;&#10;substantial connections to number theory, a subject christened the ‘Queen of Mathematics’ by&#13;&#10;none other than C F Gauss himself. These connections have been extensively studied recently&#13;&#10;and have proved to be very fruitful in understanding long standing conjectures in both subjects.&#13;&#10;In his lecture, the speaker will give an overview of ergodic theory and will also try to explain&#13;&#10;some of these connections."
+    },
+    "speaker": {
+        "name": "ANISH GHOSH",
+        "affiliation": "Tata Institute of Fundamental Research, Mumbai",
+        "biodata": "Anish Ghosh is a faculty member in the School of Mathematics at the Tata Institute of&#13;&#10;Fundamental Research in Mumbai. He received his BSc from St. Xavier’s College, Mumbai&#13;&#10;in 2001 and his PhD from Brandeis University in 2006. After a brief postdoctoral stint at the&#13;&#10;University of Texas at Austin, he moved to a faculty position at the University of East Anglia,&#13;&#10;UK and then, after a few years, to the TIFR.&#13;&#10;Ghosh works at the interface of ergodic theory, Lie groups, and number theory. He was&#13;&#10;awarded the NASI-Scopus young Scientist award and his work has been supported generously&#13;&#10;by several grants from the NSF, the EPSRC and the Royal Society. He is currently supported&#13;&#10;by a DST Swarnajayanti fellowship. He was elected as a Fellow of the Indian Academy of&#13;&#10;Sciences in 2018"
+    }
+}
