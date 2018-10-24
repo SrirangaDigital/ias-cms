@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540375013691",
+        "session": "SESSION 2D: Inaugural lectures by Fellows/Associates",
+        "chairperson": "R K Srivastava, BHU, Varanasi",
+        "title": "Diffusion, growth, and elasticity in batteries – A mathematical modelling perspective",
+        "abstract": "Lithium-ion batteries are widely used in almost all portable electronic&#13;&#10;devices and most recently in electric vehicles. However, they can become&#13;&#10;commercially competitive only with much higher energy capacity –&#13;&#10;something which can be achieved with the use of electrode materials&#13;&#10;like silicon. But silicon poses a major technological difficulty because it undergoes huge volumetric&#13;&#10;growth when infused with lithium during charging. In this talk, the speaker will describe&#13;&#10;a modelling framework to understand the fundamentals of such diffusion-induced growth, and&#13;&#10;how such a framework helps in investigating possibilities of buckling as a mechanical failure&#13;&#10;together with ways to mitigate large axial deformations. The speaker will also discuss some of&#13;&#10;the immediate challenges of delving deeper into smaller length scales on one hand and upscaling&#13;&#10;the framework to the length scale of the whole battery on the other."
+    },
+    "speaker": {
+        "name": "JEEVANJYOTI CHAKRABORTY",
+        "affiliation": "Indian Institute of Technology Kharagpur",
+        "biodata": "Jeevanjyoti Chakraborty is an Assistant Professor in the Mechanical Engineering Department&#13;&#10;of IIT Kharagpur. He holds a PhD from IIT Kharagpur and has held postdoctoral positions in&#13;&#10;applied mathematics at the University of Oxford and the University of Birmingham. He had a&#13;&#10;three-month stint as DST-INSPIRE Faculty at IISc Bangalore before joining IIT Kharagpur.&#13;&#10;His research interests span across fluid and solid mechanics together with electrochemical&#13;&#10;effects. He is especially interested in the mathematical modelling of energy storage materials,&#13;&#10;fluid flows through deformable confinements, and certain mechanical aspects of biological&#13;&#10;cell growth. His PhD work (on micro-scale flows) was adjudged as one of the five best across&#13;&#10;all engineering disciplines by the INAE (2014). He received the Faculty Excellence Award at&#13;&#10;IIT Kharagpur (2017). He was selected as an Associate of the Indian Academy of Sciences&#13;&#10;in 2017."
+    }
+}
