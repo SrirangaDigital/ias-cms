@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540372867249",
+        "session": "Session",
+        "chairperson": "Chairperson",
+        "title": "The uses of chance",
+        "abstract": "Chance, depending on context, can mean different things to different&#13;&#10;people. A chance event may either be a consequence of intrinsic&#13;&#10;fluctuations or may be due to incomplete or imprecise knowledge.&#13;&#10;The notion of contingency is closely tied into that of chance, and&#13;&#10;thus uncovering the underpinnings – whether this is due to underlying&#13;&#10;stochastic phenomena or underlying chaotic dynamics – is of interest. &#13;&#10;&#13;&#10;Using examples from dynamical systems theory, the role of chance when there are several&#13;&#10;coexisting dynamical attractors, with attractor basins that are intermingled in a complex&#13;&#10;manner will be discussed. Small uncertainties in determining the initial state can lead to&#13;&#10;very large uncertainties in the outcomes. On the other hand, intrinsic noise plays a major&#13;&#10;role in small systems where the dynamics is stochastic. Both phenomena occur in biological&#13;&#10;systems and are exploited, at a systems level, in different ways. On the one hand, chance&#13;&#10;provides the possibility of complex dynamical states such as chimeras. On the other, chance&#13;&#10;allows for stochastic switching in the realm of dynamics both within a cell and within populations.&#13;&#10;&#13;&#10;Chance is crucial in a diverse range of situations. To paraphrase Monod (1971), nature relies&#13;&#10;on chance and not on destiny. And as noted by C R Rao (1989), chance may be the antithesis&#13;&#10;of all law. But the way out is to discover the laws of chance. "
+    },
+    "speaker": {
+        "name": "RAM RAMASWAMY",
+        "affiliation": "Jawaharlal Nehru University, New Delhi",
+        "biodata": "Ramakrishna Ramaswamy, President of the Indian Academy of Sciences (2016-18),&#13;&#10;has recently retired from the School of Physical Sciences, Jawaharlal Nehru University,&#13;&#10;New Delhi. His research interests are in the intersection of nonlinear science, statistical&#13;&#10;physics, and computational biology. He is also a Fellow of the Indian National Science&#13;&#10;Academy and of The World Academy of Sciences (TWAS)."
+    }
+}
