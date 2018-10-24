@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540373867478",
+        "session": "SESSION 1C: Inaugural lectures by Associates",
+        "chairperson": "V C Thakur, Dehradun",
+        "title": "Hardware implementation of neural network algorithms, based on machine learning and neuroscience models, using spintronic devices as non-volatile memory elements",
+        "abstract": "Neural Network algorithms are widely used by the machine learning and&#13;&#10;data sciences community to solve various classification, recognition and&#13;&#10;prediction tasks. These algorithms, if implemented on hardware instead&#13;&#10;of software, can provide further advantages owing to the parallel architecture and the principle&#13;&#10;of memory embedded computing inherent in these algorithms. Spintronic devices owing to their&#13;&#10;non-volatility can make excellent memory elements for the hardware implementation of Neural&#13;&#10;Networks. The speaker will discuss a few such spintronic implementations of Neural Network,&#13;&#10;which he and his team have carried out through simulations at IIT Delhi. One such implementation&#13;&#10;follows a Neural Network algorithm that is largely inspired by the functioning of the&#13;&#10;brain – Spiking Neural Network, enabled with Spike Time Dependent Plasticity. If implemented&#13;&#10;in spintronic hardware it can not only solve several problems of relevance to the machine learning&#13;&#10;community but also may help improve our understanding of the functioning of the brain in&#13;&#10;future. "
+    },
+    "speaker": {
+        "name": "DEBANJAN BHOWMICK",
+        "affiliation": "Indian Institute of Technology Delhi, New Delhi",
+        "biodata": "Debanjan Bhowmik is currently an Assistant Professor in Department of Electrical&#13;&#10;Engineering, Indian Institute of Technology–Delhi, working in the area of spintronics-based&#13;&#10;low-power computing. He supervises research in the area of spintronics-based hardware neural&#13;&#10;networks. He obtained his B. Tech. in Electrical Engineering from IIT–Kharagpur in 2010&#13;&#10;and PhD from University of California–Berkeley in 2015, working in the field of nanomagnetism&#13;&#10;and spintronics. He was elected as an Associate of the Indian Academy of Sciences&#13;&#10;in 2017"
+    }
+}
