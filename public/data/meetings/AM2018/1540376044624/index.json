@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540376044624",
+        "session": "SESSION 3C: Special Lecture",
+        "chairperson": "N Viswanadham, IISc, Bengaluru",
+        "title": "The sciences of the artificial: Promise and reality",
+        "abstract": "The natural sciences describe objects in nature, while the sciences of&#13;&#10;the artificial describe artifacts that come from human intervention in&#13;&#10;the natural world. This perspective helped the Nobel laureate Herbert&#13;&#10;Simon pioneer the integration of cognitive, mathematical and computational&#13;&#10;methods to study artificial complexity and confirm the thesis&#13;&#10;that a physical symbol system and the computer as an artifact have the necessary means for&#13;&#10;intelligent action. Ideas of machine intelligence go back to the early postwar period with Alan&#13;&#10;Turing’s famous formulation of the imitation game which became known as the Turing test.&#13;&#10;Artificial and Augmented Intelligence joined hands with the decision sciences and became an&#13;&#10;integral part of the data analytics toolbox. Today Artificial Intelligence or AI is synonymous with&#13;&#10;‘deep learning’. For AI, the departure from the computer as an artifact began in the 90s with the&#13;&#10;advent of the cloud and great advances in training hardware and software for artificial neural&#13;&#10;networks. Geoffrey Hinton in Toronto has built this magnificent edifice of deep learning, which&#13;&#10;has become all pervasive."
+    },
+    "speaker": {
+        "name": "VIJAY CHANDRU",
+        "affiliation": "Indian Institute of Science, Bengaluru",
+        "biodata": "Vijay Chandru is currently an INAE distinguished technologist at IISc and an Adjunct /&#13;&#10;Visiting Professor of the Division of Interdisciplinary Research in Bio-Engineering and in&#13;&#10;Cyber Physical Systems. Formally trained in Electrical Engineering (BITS, Pilani), Systems&#13;&#10;Science and Engineering (UCLA) and in Decision Sciences (MIT), he has over 35 years of&#13;&#10;research experience and academic career in teaching and research in computational mathematics&#13;&#10;at Purdue University (1982–1992) and the Indian Institute of Science since 1992. As&#13;&#10;a technology entrepreneur, he was one of the inventors of the Simputer® and currently serves&#13;&#10;as the Founder Director of Strand Life Sciences, both spinoffs from IISc. He was named a&#13;&#10;Technology Pioneer of the World Economic Forum in 2006 and is a recipient of the Hari&#13;&#10;Om Trust Award from the University Grants Commission (2003) and the President’s Medal&#13;&#10;of the Institute for Operations Research and Management Science (INFORMS) in 2006. He&#13;&#10;is a Fellow of INAE and ORSI (Operations Research Society of India) and is the President of&#13;&#10;ORSI. He was elected as a Fellow of the Indian Academy of Sciences in 1996."
+    }
+}
