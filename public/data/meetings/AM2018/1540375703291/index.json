@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540375703291",
+        "session": "SESSION 3A: Inaugural lectures by Fellows/Associates",
+        "chairperson": "S Ananthakrishnan, Savitribai Phule Pune University, Pune",
+        "title": "Large scale geometry of randomly growing interfaces",
+        "abstract": "A rich class of models for randomly growing interfaces, believed to be in&#13;&#10;the so-called Kardar-Parisi-Zhang (KPZ) universality class, is expected to&#13;&#10;exhibit the same universal asymptotics that are empirically observed in&#13;&#10;the large scale geometry of many naturally occurring growing interfaces.&#13;&#10;This has been one of the exciting frontiers of probability research over&#13;&#10;the past two decades, where tremendous progress has been made in rigorous understanding of&#13;&#10;some of these models, combining tools from different areas of mathematics. The speaker will&#13;&#10;discuss some of the recent progress, and many open questions that still remain. "
+    },
+    "speaker": {
+        "name": "RIDDHIPRATIM BASU",
+        "affiliation": "International Centre for Theoretical Sciences, Bengaluru",
+        "biodata": "Riddhipratim Basu is a Reader at the International Centre for Theoretical Sciences of Tata&#13;&#10;Institute of Fundamental Research (ICTS-TIFR). He obtained his bachelor’s degree and master’s&#13;&#10;degree from Indian Statistical Institute, Kolkata and subsequently joined the University&#13;&#10;of California, Berkeley where he obtained his PhD in 2015. He spent two years at Stanford&#13;&#10;University as a Szegö Assistant Professor of Mathematics before joining ICTS in 2017. His&#13;&#10;research is in probability theory, often motivated by questions coming from statistical physics.&#13;&#10;He has recently been working on first and last passage percolation, interacting particle&#13;&#10;systems, models of self-organized criticality among other topics. He was selected as an&#13;&#10;Associate of the Indian Academy of Sciences in 2018."
+    }
+}
