@@ -1,0 +1,14 @@
+{
+    "talk": {
+        "id": "AM2018/1540375860211",
+        "session": "SESSION 3B: Inaugural lectures by Fellows/Associates",
+        "chairperson": "A K Singhvi, Physical Research Laboratory, Ahmedabad",
+        "title": "Cold fermions in artificial gauge fields",
+        "abstract": "The possibility of employing cold atomic gases as emulators of condensed&#13;&#10;matter Hamiltonians has got boosted up by the birth and growth&#13;&#10;of the field of synthetic spin-orbit coupling. The speaker’s group studies&#13;&#10;interacting Fermi gas in 3D in presence of uniform synthetic non-Abelian&#13;&#10;gauge fields that induce a generalized Rashba-spin-orbit coupling&#13;&#10;(RSOC). In presence of a class of RSOC, however small, a two-particle bound state exists even for&#13;&#10;an arbitrarily small attraction. The fermion system can evolve to a Bose–Einstein condensate of&#13;&#10;a novel boson called the rashbon, whose properties are determined solely by RSOC and not by&#13;&#10;the interaction between the fermions or the fermion density. Via a study of collective excitations&#13;&#10;of the superfluid state, the rashbon–rashbon interaction has been shown to be independent of&#13;&#10;the constituent fermion–fermion interaction. By constructing a fluctuation theory, the speaker&#13;&#10;demonstrates that RSOC enhances the transition temperature of a weak Fermi superfluid to the&#13;&#10;order of Fermi temperature."
+    },
+    "speaker": {
+        "name": "JAYANTH VYASANAKERE",
+        "affiliation": "Azim Premji University, Bangalore",
+        "biodata": "Jayanth Vyasanakere teaches physics and mathematics in the School of Liberal Studies, Azim&#13;&#10;Premji University, Bengaluru. He has been working with APU since 2017, after teaching&#13;&#10;in Tumkur University from 2012. He also teaches in Research Education Advancement&#13;&#10;Programme at Jawaharlal Nehru Planetarium, Bengaluru. He holds an integrated PhD in&#13;&#10;Physics from the Indian Institute of Science. His research interest is in condensed matter&#13;&#10;physics and he has worked in the field of cold atoms studying the effects of artificial gauge&#13;&#10;fields on interacting Fermi systems. He is a gold medalist from Bangalore University and&#13;&#10;the recipent of Shyama Prasad Mukherjee Memorial Fellowship – 2011, Kumari L Meera&#13;&#10;Memorial award for the best Integrated PhD student during MS at IISc – 2010 and the&#13;&#10;KVPY Fellowship – 2005. He was selected as an Associate of the Indian Academy of Sciences&#13;&#10;in 2018. "
+    }
+}
