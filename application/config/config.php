@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', 'http://192.168.1.101/ias-cms/');
+define('BASE_URL', 'http://localhost/ias-cms/');
 define('PUBLIC_URL', BASE_URL . 'public/');
 define('STOCK_IMAGE_URL', PUBLIC_URL . 'images/stock/');
 define('PRECAST_URL', BASE_URL . 'precast/');
@@ -19,10 +19,10 @@ define('LOGIN_USERNAME', 'admin@ias.ac.in');
 define('LOGIN_PASSWORD', 'iasSeeMyes');
 
 // Git config
-define('GIT_USER_NAME', 'shruthisdst');
-define('GIT_PASSWORD', 'shruthitr14');
+define('GIT_USER_NAME', 'sriranga-deploy');
+define('GIT_PASSWORD', 'xxx');
 define('GIT_REPO', 'github.com/SrirangaDigital/ias-cms.git');
 define('GIT_REMOTE', 'https://' . GIT_USER_NAME . ':' . GIT_PASSWORD . '@' . GIT_REPO);
-define('GIT_EMAIL', 'shruthitr.nayak@gmail.com');
+define('GIT_EMAIL', 'accounts@srirangadigital.com');
 
 ?>
